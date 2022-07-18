@@ -12,7 +12,6 @@ export USERNAME=deployer
 export HOME=/home/deployer
 
 echo "------------------------------------------------"
-#echo "Tackle 2 URL: ${TACKLE2_URL}"
 echo "Tackle2 User:     ${TACKLE2_USER}"
 echo "Tackle2 Password: ${TACKLE2_PASSWORD}"
 
