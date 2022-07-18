@@ -12,12 +12,12 @@ export USERNAME=deployer
 export HOME=/home/deployer
 
 echo "------------------------------------------------"
-echo "Tackle 2 URL: ${TACKLE2_URL}"
-echo "  User:       ${TACKLE2_USER}"
-echo "  Password:   ${TACKLE2_PASSWORD}"
+#echo "Tackle 2 URL: ${TACKLE2_URL}"
+echo "Tackle2 User:     ${TACKLE2_USER}"
+echo "Tackle2 Password: ${TACKLE2_PASSWORD}"
 
 cd $HOME/tackle2-hub/hack/tool
-sed -i "s/REPLACE_URL/${TACKLE2_URL}/g" tackle-config.yml
+#sed -i "s/REPLACE_URL/${TACKLE2_URL}/g" tackle-config.yml
 
 if [ -n "$TACKLE2_USER" ];
 then
