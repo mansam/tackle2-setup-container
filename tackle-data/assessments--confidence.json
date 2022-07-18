@@ -1,0 +1,32 @@
+[
+    {
+        "assessmentId": 2980,
+        "applicationId": 83,
+        "confidence": 100
+    },
+    {
+        "assessmentId": 2555,
+        "applicationId": 84,
+        "confidence": 100
+    },
+    {
+        "assessmentId": 2769,
+        "applicationId": 85,
+        "confidence": 100
+    },
+    {
+        "assessmentId": 2344,
+        "applicationId": 87,
+        "confidence": 0
+    },
+    {
+        "assessmentId": 2133,
+        "applicationId": 89,
+        "confidence": 0
+    },
+    {
+        "assessmentId": 1919,
+        "applicationId": 90,
+        "confidence": 0
+    }
+]

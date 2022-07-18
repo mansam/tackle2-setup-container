@@ -1,0 +1,262 @@
+[
+    {
+        "id": 82,
+        "createUser": "tackle",
+        "updateUser": "tackle",
+        "name": "Customers",
+        "description": "Legacy Customers management service",
+        "tags": [
+            {
+                "id": 44,
+                "name": "Tomcat"
+            },
+            {
+                "id": 34,
+                "name": "Java"
+            },
+            {
+                "id": 56,
+                "name": "Corporate Custom Configuration Library"
+            },
+            {
+                "id": 57,
+                "name": "RHEL 8"
+            },
+            {
+                "id": 28,
+                "name": "Oracle"
+            }
+        ],
+        "businessService": {
+            "id": 53
+        }
+    },
+    {
+        "id": 83,
+        "createUser": "tackle",
+        "updateUser": "tackle",
+        "name": "Orders",
+        "description": "Orders Service",
+        "tags": [
+            {
+                "id": 34,
+                "name": "Java"
+            },
+            {
+                "id": 57,
+                "name": "RHEL 8"
+            },
+            {
+                "id": 58,
+                "name": "Postgresql"
+            },
+            {
+                "id": 43,
+                "name": "Spring Boot"
+            }
+        ],
+        "businessService": {
+            "id": 53
+        }
+    },
+    {
+        "id": 84,
+        "createUser": "tackle",
+        "updateUser": "tackle",
+        "name": "Inventory",
+        "description": "Inventory service",
+        "tags": [
+            {
+                "id": 34,
+                "name": "Java"
+            },
+            {
+                "id": 57,
+                "name": "RHEL 8"
+            },
+            {
+                "id": 58,
+                "name": "Postgresql"
+            },
+            {
+                "id": 42,
+                "name": "Quarkus"
+            }
+        ],
+        "businessService": {
+            "id": 53
+        }
+    },
+    {
+        "id": 85,
+        "createUser": "tackle",
+        "updateUser": "tackle",
+        "name": "Gateway",
+        "description": "API Gateway",
+        "tags": [
+            {
+                "id": 34,
+                "name": "Java"
+            },
+            {
+                "id": 57,
+                "name": "RHEL 8"
+            },
+            {
+                "id": 43,
+                "name": "Spring Boot"
+            }
+        ],
+        "businessService": {
+            "id": 53
+        }
+    },
+    {
+        "id": 86,
+        "createUser": "tackle",
+        "updateUser": "tackle",
+        "name": "RetailFrontend",
+        "description": "Frontend for the Retail application",
+        "tags": [
+            {
+                "id": 57,
+                "name": "RHEL 8"
+            },
+            {
+                "id": 35,
+                "name": "Javascript"
+            }
+        ],
+        "businessService": {
+            "id": 53
+        }
+    },
+    {
+        "id": 87,
+        "createUser": "tackle",
+        "updateUser": "tackle",
+        "name": "Payroll",
+        "description": "Payroll management system",
+        "tags": [
+            {
+                "id": 34,
+                "name": "Java"
+            },
+            {
+                "id": 57,
+                "name": "RHEL 8"
+            },
+            {
+                "id": 58,
+                "name": "Postgresql"
+            }
+        ],
+        "businessService": {
+            "id": 54
+        }
+    },
+    {
+        "id": 88,
+        "createUser": "tackle",
+        "updateUser": "tackle",
+        "name": "PurchaseOrders",
+        "description": "Requistions, Purchase Orders and Goods Receipting",
+        "tags": [
+            {
+                "id": 34,
+                "name": "Java"
+            },
+            {
+                "id": 57,
+                "name": "RHEL 8"
+            },
+            {
+                "id": 46,
+                "name": "WebSphere"
+            },
+            {
+                "id": 26,
+                "name": "DB2"
+            }
+        ],
+        "businessService": {
+            "id": 54
+        }
+    },
+    {
+        "id": 89,
+        "createUser": "tackle",
+        "updateUser": "tackle",
+        "name": "Flexicard",
+        "description": "Account Managment for Credit Cards",
+        "tags": [
+            {
+                "id": 34,
+                "name": "Java"
+            },
+            {
+                "id": 57,
+                "name": "RHEL 8"
+            },
+            {
+                "id": 28,
+                "name": "Oracle"
+            }
+        ],
+        "businessService": {
+            "id": 54
+        }
+    },
+    {
+        "id": 90,
+        "createUser": "tackle",
+        "updateUser": "tackle",
+        "name": "AccountsReceivable",
+        "description": "Customer management and incoming payments",
+        "tags": [
+            {
+                "id": 34,
+                "name": "Java"
+            },
+            {
+                "id": 57,
+                "name": "RHEL 8"
+            },
+            {
+                "id": 28,
+                "name": "Oracle"
+            },
+            {
+                "id": 40,
+                "name": "EAP"
+            }
+        ],
+        "businessService": {
+            "id": 54
+        }
+    },
+    {
+        "id": 91,
+        "createUser": "tackle",
+        "updateUser": "tackle",
+        "name": "OrangeHRM",
+        "description": "HR staff processing of requests",
+        "tags": [
+            {
+                "id": 57,
+                "name": "RHEL 8"
+            },
+            {
+                "id": 58,
+                "name": "Postgresql"
+            },
+            {
+                "id": 36,
+                "name": "Python"
+            }
+        ],
+        "businessService": {
+            "id": 54
+        }
+    }
+]
