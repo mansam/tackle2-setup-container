@@ -19,7 +19,7 @@ ADD tackle-data /home/deployer/tackle2-hub/hack/tool/tackle-data
 COPY tackle-config.yml /home/deployer/tackle2-hub/hack/tool/tackle-config.yml
 
 RUN chmod +x /home/deployer/deployer.sh && \
-    chmod 660 /home/deployer/tackle2-hub/hack/tool/tackle-config.yml && \
+    chmod 666 /home/deployer/tackle2-hub/hack/tool/tackle-config.yml && \
     chown -R deployer:root /home/deployer
 
 USER deployer
