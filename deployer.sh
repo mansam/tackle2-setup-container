@@ -17,16 +17,15 @@ echo "Tackle2 User:     ${TACKLE2_USER}"
 echo "Tackle2 Password: ${TACKLE2_PASSWORD}"
 
 cd $HOME/tackle2-hub/hack/tool
-#sed -i "s/REPLACE_URL/${TACKLE2_URL}/g" tackle-config.yml
 
 if [ -n "$TACKLE2_USER" ];
 then
-  sed -i "s/REPLACE_USER/${TACKLE2_USER}/g" tackle-config.yml
+  sed -i "s/REPLACE_USER/${TACKLE2_USER}/g" ./tackle-config.yml
 fi
 
 if [ -n "$TACKLE2_PASSWORD" ];
 then
-  sed -i "s/REPLACE_PASSWORD/${TACKLE2_PASSWORD}/g" tackle-config.yml
+  sed -i "s/REPLACE_PASSWORD/${TACKLE2_PASSWORD}/g" ./tackle-config.yml
 fi
 
 # Clean all Tackle data
