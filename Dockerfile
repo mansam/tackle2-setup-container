@@ -20,6 +20,7 @@ COPY tackle-config.yml /home/deployer/tackle2-hub/hack/tool/tackle-config.yml
 
 RUN chmod +x /home/deployer/deployer.sh && \
     chmod 666 /home/deployer/tackle2-hub/hack/tool/tackle-config.yml && \
+    chmod 777 /home/deployer/tackle2-hub/hack/tool && \
     chown -R deployer:root /home/deployer
 
 USER deployer
