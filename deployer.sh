@@ -36,7 +36,8 @@ export CURL_RC=7
 while [ "$CURL_RC" != "0" ]
 do
   sleep 5
-  export CURL_RC=$(curl -sI http://tackle-ui:8080 -o /dev/null)
+  curl -sI http://tackle-ui:8080 -o /dev/null
+  CURL_RC=$?
   echo "  ... not yet (RC: ${CURL_RC})"
 done
 
