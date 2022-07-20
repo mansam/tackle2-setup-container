@@ -31,17 +31,22 @@ then
 fi
 
 # Wait until the Tackle UI service is available
+echo "Waiting for Tackle UI service to be available..."
 export CURL_RC=7
 while [ "$CURL_RC" != "0" ]
 do
   sleep 5
-  CURL_RC=$(curl -sI http://tackle-ui:8080 -o /dev/null)
+  export CURL_RC=$(curl -sI http://tackle-ui:8080 -o /dev/null)
+  echo "  ... not yet (RC: ${CURL_RC})"
 done
 
 # Clean all Tackle data
 export PYTHONWARNINGS="ignore:Unverified HTTPS request"
+echo "Cleaning Tackle instance..."
 ./tackle ${TACKLE_NOAUTH} clean-all
 
 # Import provided data
+echo "Importing Tackle data..."
 ./tackle ${TACKLE_NOAUTH} import
 
+echo "Tackle is ready for demo!"
