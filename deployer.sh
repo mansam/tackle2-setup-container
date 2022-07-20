@@ -30,6 +30,14 @@ then
   sed -i "s/REPLACE_PASSWORD/${TACKLE2_PASSWORD}/g" ./tackle-config.yml
 fi
 
+# Wait until the Tackle UI service is available
+export CURL_RC=7
+while [ "$CURL_RC" != "0" ]
+do
+  sleep 5
+  CURL_RC=$(curl -sI http://tackle-ui:8080 -o /dev/null)
+done
+
 # Clean all Tackle data
 export PYTHONWARNINGS="ignore:Unverified HTTPS request"
 ./tackle ${TACKLE_NOAUTH} clean-all
