@@ -15,11 +15,14 @@ echo "------------------------------------------------"
 echo "Tackle2 User:     ${TACKLE2_USER}"
 echo "Tackle2 Password: ${TACKLE2_PASSWORD}"
 
+export TACKLE_NOAUTH="--no-auth"
+
 cd $HOME/tackle2-hub/hack/tool
 
 if [ -n "$TACKLE2_USER" ];
 then
   sed -i "s/REPLACE_USER/${TACKLE2_USER}/g" ./tackle-config.yml
+  TACKLE_NOAUTH=""
 fi
 
 if [ -n "$TACKLE2_PASSWORD" ];
@@ -29,8 +32,8 @@ fi
 
 # Clean all Tackle data
 export PYTHONWARNINGS="ignore:Unverified HTTPS request"
-./tackle clean-all
+./tackle ${TACKLE_NOAUTH} clean-all
 
 # Import provided data
-./tackle import
+./tackle ${TACKLE_NOAUTH} import
 
