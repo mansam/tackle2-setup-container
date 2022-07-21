@@ -12,9 +12,13 @@ export USERNAME=deployer
 export HOME=/home/deployer
 
 echo "------------------------------------------------"
+echo "Tackle 2 Setup script"
+echo "------------------------------------------------"
 echo "Tackle2 User:     ${TACKLE2_USER}"
 echo "Tackle2 Password: ${TACKLE2_PASSWORD}"
+echo "------------------------------------------------"
 
+# Set no auth flag default
 export TACKLE_NOAUTH="--no-auth"
 
 cd $HOME/tackle2-hub/hack/tool
@@ -22,6 +26,7 @@ cd $HOME/tackle2-hub/hack/tool
 if [ -n "$TACKLE2_USER" ];
 then
   sed -i "s/REPLACE_USER/${TACKLE2_USER}/g" ./tackle-config.yml
+  # Clear no auth flag -> use provided user and password to authenticate
   TACKLE_NOAUTH=""
 fi
 
@@ -30,9 +35,10 @@ then
   sed -i "s/REPLACE_PASSWORD/${TACKLE2_PASSWORD}/g" ./tackle-config.yml
 fi
 
-# Wait until the Tackle UI service is available
-echo "Waiting for Tackle UI service to be available..."
-export CURL_RC=7
+# Wait until the Tackle2 UI service is available
+echo "Waiting for Tackle2 UI service to be available..."
+
+export CURL_RC=1
 while [ "$CURL_RC" != "0" ]
 do
   sleep 5
@@ -41,13 +47,21 @@ do
   echo "  ... not yet (RC: ${CURL_RC})"
 done
 
+echo "Tackle2 UI service is responding."
+echo "Time to configure Tackle2..."
+echo "------------------------------------------------"
+
 # Clean all Tackle data
 export PYTHONWARNINGS="ignore:Unverified HTTPS request"
 echo "Cleaning Tackle instance..."
+echo "------------------------------------------------"
 ./tackle ${TACKLE_NOAUTH} clean-all
 
 # Import provided data
 echo "Importing Tackle data..."
+echo "------------------------------------------------"
 ./tackle ${TACKLE_NOAUTH} import
 
+echo "------------------------------------------------"
 echo "Tackle is ready for demo!"
+
