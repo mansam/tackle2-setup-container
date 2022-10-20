@@ -1,7 +1,7 @@
 #!/bin/bash
-VERSION=1.0
+export TACKLE2_VERSION=v2.1.1
 
-podman build . -t quay.io/gpte-devops-automation/tackle2-setup:latest
-podman tag quay.io/gpte-devops-automation/tackle2-setup:latest quay.io/gpte-devops-automation/tackle2-setup:${VERSION}
+podman build . --build-arg TACKLE2_VERSION=${TACKLE2_VERSION} -t quay.io/gpte-devops-automation/tackle2-setup:latest
+podman tag quay.io/gpte-devops-automation/tackle2-setup:latest quay.io/gpte-devops-automation/tackle2-setup:${TACKLE2_VERSION}
 podman push quay.io/gpte-devops-automation/tackle2-setup:latest
-podman push quay.io/gpte-devops-automation/tackle2-setup:${VERSION}
+podman push quay.io/gpte-devops-automation/tackle2-setup:${TACKLE2_VERSION}

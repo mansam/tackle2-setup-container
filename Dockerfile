@@ -1,6 +1,8 @@
 # Use Red Hat Universal Base Image 9 - Python 3.9
 FROM registry.access.redhat.com/ubi9/python-39:latest
 
+ARG TACKLE2_VERSION="v2.1.1"
+
 USER root
 
 COPY pythonpackages.yml /tmp/pythonpackages.yml
@@ -13,7 +15,10 @@ RUN adduser deployer --home-dir=/home/deployer  && \
 
 COPY deployer.sh /home/deployer/deployer.sh
 
-RUN git clone https://github.com/konveyor/tackle2-hub.git /home/deployer/tackle2-hub
+RUN git clone https://github.com/konveyor/tackle2-hub.git /home/deployer/tackle2-hub && \
+    cd /home/deployer/tackle2-hub && \
+    git checkout $TACKLE2_VERSION && \
+    cd -
 
 ADD tackle-data /home/deployer/tackle2-hub/hack/tool/tackle-data
 COPY tackle-config.yml /home/deployer/tackle2-hub/hack/tool/tackle-config.yml
