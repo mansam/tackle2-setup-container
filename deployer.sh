@@ -48,6 +48,9 @@ do
 done
 
 echo "Tackle2 UI service is responding."
+echo "Wait another 10 seconds to let things settle"
+sleep 10
+
 echo "Time to configure Tackle2..."
 echo "------------------------------------------------"
 
