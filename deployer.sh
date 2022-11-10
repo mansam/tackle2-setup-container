@@ -10,13 +10,14 @@ rm /tmp/passwd
 export USER=deployer
 export USERNAME=deployer
 export HOME=/home/deployer
+export PYTHONWARNINGS="ignore:Unverified HTTPS request"
 
-echo "------------------------------------------------"
+echo "-------------------------------------------------"
 echo "Tackle 2 Setup script"
-echo "------------------------------------------------"
+echo "-------------------------------------------------"
 echo "Tackle2 User:     ${TACKLE2_USER}"
 echo "Tackle2 Password: ${TACKLE2_PASSWORD}"
-echo "------------------------------------------------"
+echo "-------------------------------------------------"
 
 # Set no auth flag default
 export TACKLE_NOAUTH="--no-auth"
@@ -36,7 +37,9 @@ then
 fi
 
 # Wait until the Tackle2 UI service is available
+echo "-------------------------------------------------"
 echo "Waiting for Tackle2 UI service to be available..."
+echo "-------------------------------------------------"
 
 export CURL_RC=1
 while [ "$CURL_RC" != "0" ]
@@ -47,24 +50,42 @@ do
   echo "  ... not yet (RC: ${CURL_RC})"
 done
 
+echo "-------------------------------------------------"
 echo "Tackle2 UI service is responding."
-echo "Wait another 10 seconds to let things settle"
-sleep 10
+echo "-------------------------------------------------"
 
-echo "Time to configure Tackle2..."
-echo "------------------------------------------------"
-
-# Clean all Tackle data
-export PYTHONWARNINGS="ignore:Unverified HTTPS request"
+# Delete all existing Tackle data
+echo "-------------------------------------------------"
 echo "Cleaning Tackle instance..."
-echo "------------------------------------------------"
-./tackle ${TACKLE_NOAUTH} clean-all
+echo "-------------------------------------------------"
+export TACKLE_CLEAN_RC=1
+while [ "$TACKLE_CLEAN_RC" != "0" ]
+do
+  ./tackle ${TACKLE_NOAUTH} clean-all
+  TACKLE_CLEAN_RC=$?
+  if [ "$TACKLE_CLEAN_RC" != "0" ]
+  then
+    echo "  Cleaning Tackle failed. Sleeping 5s before retrying."
+    sleep 5
+  fi
+done
 
 # Import provided data
+echo "-------------------------------------------------"
 echo "Importing Tackle data..."
-echo "------------------------------------------------"
-./tackle ${TACKLE_NOAUTH} import
+echo "-------------------------------------------------"
+export TACKLE_IMPORT_RC=1
+while [ "$TACKLE_IMPORT_RC" != "0" ]
+do
+  ./tackle ${TACKLE_NOAUTH} import
+  TACKLE_IMPORT_RC=$?
+  if [ "$TACKLE_IMPORT_RC" != "0" ]
+  then
+    echo "  Importing data into Tackle failed. Sleeping 5s before retrying."
+    sleep 5
+  fi
+done
 
-echo "------------------------------------------------"
+echo "-------------------------------------------------"
 echo "Tackle is ready for demo!"
-
+echo "-------------------------------------------------"
