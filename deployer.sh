@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -euo pipefail
-
 # Updated /etc/passwd with current UID of the running container
 grep -v ^deployer /etc/passwd > "/tmp/passwd"
 echo "deployer:x:$(id -u):0:deployer user:/home/deployer:/bin/bash" >> /tmp/passwd
