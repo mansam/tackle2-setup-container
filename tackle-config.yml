@@ -1,6 +1,5 @@
 ---
 # Default Tackle 2 endpoint and credentials
-url: http://tackle-ui:8080
+url: http://REPLACE_SVC:8080
 username: REPLACE_USER
 password: REPLACE_PASSWORD
-
