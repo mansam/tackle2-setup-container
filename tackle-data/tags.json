@@ -4,7 +4,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "COTS",
-        "tagType": {
+        "category": {
             "id": 13,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -19,7 +19,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "In house",
-        "tagType": {
+        "category": {
             "id": 13,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -34,7 +34,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "SaaS",
-        "tagType": {
+        "category": {
             "id": 13,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -49,7 +49,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "Boston (USA)",
-        "tagType": {
+        "category": {
             "id": 14,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -64,7 +64,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "London (UK)",
-        "tagType": {
+        "category": {
             "id": 14,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -79,7 +79,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "Paris (FR)",
-        "tagType": {
+        "category": {
             "id": 14,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -94,7 +94,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "Sydney (AU)",
-        "tagType": {
+        "category": {
             "id": 14,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -109,7 +109,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "DB2",
-        "tagType": {
+        "category": {
             "id": 15,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -124,7 +124,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "MongoDB",
-        "tagType": {
+        "category": {
             "id": 15,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -139,7 +139,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "Oracle",
-        "tagType": {
+        "category": {
             "id": 15,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -154,7 +154,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "SQL Server",
-        "tagType": {
+        "category": {
             "id": 15,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -169,7 +169,7 @@
         "createUser": "tackle",
         "updateUser": "tackle",
         "name": "Postgresql",
-        "tagType": {
+        "category": {
             "id": 15,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -184,7 +184,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "C# ASP .Net",
-        "tagType": {
+        "category": {
             "id": 16,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -199,7 +199,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "C++",
-        "tagType": {
+        "category": {
             "id": 16,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -214,7 +214,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "COBOL",
-        "tagType": {
+        "category": {
             "id": 16,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -229,7 +229,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "Java",
-        "tagType": {
+        "category": {
             "id": 16,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -244,7 +244,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "Javascript",
-        "tagType": {
+        "category": {
             "id": 16,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -259,7 +259,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "Python",
-        "tagType": {
+        "category": {
             "id": 16,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -274,7 +274,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "Windows Server 2016",
-        "tagType": {
+        "category": {
             "id": 17,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -289,7 +289,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "Z/OS",
-        "tagType": {
+        "category": {
             "id": 17,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -304,7 +304,7 @@
         "createUser": "tackle",
         "updateUser": "tackle",
         "name": "RHEL 8",
-        "tagType": {
+        "category": {
             "id": 17,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -319,7 +319,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "EAP",
-        "tagType": {
+        "category": {
             "id": 18,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -334,7 +334,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "JWS",
-        "tagType": {
+        "category": {
             "id": 18,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -349,7 +349,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "Quarkus",
-        "tagType": {
+        "category": {
             "id": 18,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -364,7 +364,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "Spring Boot",
-        "tagType": {
+        "category": {
             "id": 18,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -379,7 +379,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "Tomcat",
-        "tagType": {
+        "category": {
             "id": 18,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -394,7 +394,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "WebLogic",
-        "tagType": {
+        "category": {
             "id": 18,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -409,7 +409,7 @@
         "createUser": "<shipped-data>",
         "updateUser": "<shipped-data>",
         "name": "WebSphere",
-        "tagType": {
+        "category": {
             "id": 18,
             "createUser": "<shipped-data>",
             "updateUser": "<shipped-data>",
@@ -424,7 +424,7 @@
         "createUser": "tackle",
         "updateUser": "tackle",
         "name": "Corporate Custom Configuration Library",
-        "tagType": {
+        "category": {
             "id": 55,
             "createUser": "tackle",
             "updateUser": "tackle",
