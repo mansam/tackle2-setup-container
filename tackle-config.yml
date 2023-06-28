@@ -5,6 +5,6 @@ username: REPLACE_USER
 password: REPLACE_PASSWORD
 # Passphrase to decrypt exported data.
 # Empty for unencrypted data
-encryption_passphrase:
+encryption_passphrase: ""
 # And again with typo in key
-encryption_passphase:
+encryption_passphase: ""
