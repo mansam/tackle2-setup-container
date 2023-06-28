@@ -3,3 +3,4 @@
 url: http://REPLACE_SVC:8080
 username: REPLACE_USER
 password: REPLACE_PASSWORD
+encryption_passphrase:
