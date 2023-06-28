@@ -1,7 +1,7 @@
 # Use Red Hat Universal Base Image 9 - Python 3.9
 FROM registry.access.redhat.com/ubi9/python-39:latest
 
-ARG TACKLE2_VERSION="v2.1.2"
+ARG TACKLE2_VERSION="mta-6.1"
 
 USER root
 
