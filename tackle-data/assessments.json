@@ -1,5 +1,1504 @@
 [
     {
+        "id": 3500,
+        "applicationId": 82,
+        "status": "COMPLETE",
+        "stakeholders": [
+            59
+        ],
+        "stakeholderGroups": [
+            62
+        ],
+        "questionnaire": {
+            "categories": [
+                {
+                    "id": 3502,
+                    "order": 1,
+                    "title": "Application details",
+                    "questions": [
+                        {
+                            "id": 3503,
+                            "order": 1,
+                            "question": "Does the application development team understand and actively develop the application?",
+                            "options": [
+                                {
+                                    "id": 3504,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3505,
+                                    "order": 1,
+                                    "option": "Little knowledge, no development (example: third-party or commercial off-the-shelf application)",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3506,
+                                    "order": 2,
+                                    "option": "Maintenance mode, no SME knowledge or adequate documentation available",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3507,
+                                    "order": 3,
+                                    "option": "Maintenance mode, SME knowledge is available",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3508,
+                                    "order": 4,
+                                    "option": "Actively developed, SME knowledge is available",
+                                    "checked": true,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3509,
+                                    "order": 5,
+                                    "option": "Greenfield application",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "How much knowledge does the team have about the application's development or usage?"
+                        },
+                        {
+                            "id": 3510,
+                            "order": 2,
+                            "question": "How is the application supported in production?",
+                            "options": [
+                                {
+                                    "id": 3511,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3512,
+                                    "order": 1,
+                                    "option": "External support provider with a ticket-driven escalation process; no inhouse support resources",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3513,
+                                    "order": 2,
+                                    "option": "Separate internal support team, separate from the development team, with little interaction between the teams",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3514,
+                                    "order": 3,
+                                    "option": "Multiple teams provide support using an established escalation model",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3515,
+                                    "order": 4,
+                                    "option": "SRE (Site Reliability Engineering) approach with a knowledgeable and experienced operations team",
+                                    "checked": true,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3516,
+                                    "order": 5,
+                                    "option": "DevOps approach with the same team building the application and supporting it in production",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "Does the team have sufficient knowledge to support the application in production?"
+                        },
+                        {
+                            "id": 3517,
+                            "order": 3,
+                            "question": "How much time passes from when code is committed until the application is deployed to production?",
+                            "options": [
+                                {
+                                    "id": 3518,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3519,
+                                    "order": 1,
+                                    "option": "Not tracked",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3520,
+                                    "order": 2,
+                                    "option": "More than 6 months",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3521,
+                                    "order": 3,
+                                    "option": "2-6 months",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3522,
+                                    "order": 4,
+                                    "option": "8-30 days",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3523,
+                                    "order": 5,
+                                    "option": "1-7 days",
+                                    "checked": true,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3524,
+                                    "order": 6,
+                                    "option": "Less than 1 day",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "What is the development latency?"
+                        },
+                        {
+                            "id": 3525,
+                            "order": 4,
+                            "question": "How often is the application deployed to production?",
+                            "options": [
+                                {
+                                    "id": 3526,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3527,
+                                    "order": 1,
+                                    "option": "Not tracked",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3527,
+                                    "order": 2,
+                                    "option": "Less than once every 6 months",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3528,
+                                    "order": 3,
+                                    "option": "Between once a month and once every 6 months",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3529,
+                                    "order": 4,
+                                    "option": "Weekly",
+                                    "checked": true,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3530,
+                                    "order": 5,
+                                    "option": "Daily",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3531,
+                                    "order": 6,
+                                    "option": "Several times a day",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "Deployment frequency"
+                        },
+                        {
+                            "id": 3532,
+                            "order": 5,
+                            "question": "What is the application's mean time to recover (MTTR) from failure in a production environment?",
+                            "options": [
+                                {
+                                    "id": 3533,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3534,
+                                    "order": 1,
+                                    "option": "Not tracked",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3535,
+                                    "order": 2,
+                                    "option": "1 month or more",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3536,
+                                    "order": 3,
+                                    "option": "1-7 days",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3537,
+                                    "order": 4,
+                                    "option": "1-24 hours",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3538,
+                                    "order": 5,
+                                    "option": "Less than 1 hour",
+                                    "checked": true,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "Average time for the application to recover from failure"
+                        },
+                        {
+                            "id": 3539,
+                            "order": 6,
+                            "question": "Does the application have legal and/or licensing requirements?",
+                            "options": [
+                                {
+                                    "id": 3540,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3541,
+                                    "order": 1,
+                                    "option": "Multiple legal and licensing requirements",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3542,
+                                    "order": 2,
+                                    "option": "Licensing requirements (examples: per server, per CPU)",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3543,
+                                    "order": 3,
+                                    "option": "Legal requirements (examples: cluster isolation, hardware, PCI or HIPAA compliance)",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3544,
+                                    "order": 4,
+                                    "option": "None",
+                                    "checked": true,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "Legal and licensing requirements must be assessed to determine their possible impact (cost, fault reporting) on the container platform hosting the application. Examples of legal requirements: isolated clusters, certifications, compliance with the Payment Card Industry Data Security Standard or the Health Insurance Portability and Accountability Act. Examples of licensing requirements: per server, per CPU."
+                        },
+                        {
+                            "id": 3545,
+                            "order": 7,
+                            "question": "Which model best describes the application architecture?",
+                            "options": [
+                                {
+                                    "id": 3546,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3547,
+                                    "order": 1,
+                                    "option": "Massive monolith (high memory and CPU usage), singleton deployment, vertical scale only",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3548,
+                                    "order": 2,
+                                    "option": "Massive monolith (high memory and CPU usage), non-singleton deployment, complex to scale horizontally",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3549,
+                                    "order": 3,
+                                    "option": "Complex monolith, strict runtime dependency startup order, non-resilient architecture",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3550,
+                                    "order": 4,
+                                    "option": "Resilient monolith (examples: retries, circuit breakers)",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3551,
+                                    "order": 5,
+                                    "option": "Independently deployable components",
+                                    "checked": true,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "Describe the application architecture in simple terms."
+                        }
+                    ],
+                    "comment": ""
+                },
+                {
+                    "id": 3552,
+                    "order": 2,
+                    "title": "Application dependencies",
+                    "questions": [
+                        {
+                            "id": 3553,
+                            "order": 1,
+                            "question": "Does the application require specific hardware?",
+                            "options": [
+                                {
+                                    "id": 3554,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3555,
+                                    "order": 1,
+                                    "option": "Requires CPU that is not supported by Red Hat",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3556,
+                                    "order": 2,
+                                    "option": "Requires custom or legacy hardware (example: USB device)",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3557,
+                                    "order": 3,
+                                    "option": "Requires specific computer hardware (examples: GPUs, RAM, HDDs)",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3558,
+                                    "order": 4,
+                                    "option": "Requires CPU that is supported by Red Hat",
+                                    "checked": true,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "OpenShift Container Platform runs only on x86, IBM Power, or IBM Z systems"
+                        },
+                        {
+                            "id": 3559,
+                            "order": 2,
+                            "question": "What operating system does the application require?",
+                            "options": [
+                                {
+                                    "id": 3560,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3561,
+                                    "order": 1,
+                                    "option": "Operating system that is not compatible with OpenShift Container Platform (examples: OS X, AIX, Unix, Solaris)",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3562,
+                                    "order": 2,
+                                    "option": "Linux with custom kernel drivers or a specific kernel version",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3563,
+                                    "order": 3,
+                                    "option": "Linux with custom capabilities (examples: seccomp, root access)",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3564,
+                                    "order": 4,
+                                    "option": "Microsoft Windows",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3565,
+                                    "order": 5,
+                                    "option": "Standard Linux distribution",
+                                    "checked": true,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "Only Linux and certain Microsoft Windows versions are supported in containers. Check the latest versions and requirements."
+                        },
+                        {
+                            "id": 3566,
+                            "order": 3,
+                            "question": "Does the vendor provide support for a third-party component running in a container?",
+                            "options": [
+                                {
+                                    "id": 3567,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3568,
+                                    "order": 1,
+                                    "option": "Not recommended to run the component in a container",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3569,
+                                    "order": 2,
+                                    "option": "No vendor support for containers",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3570,
+                                    "order": 3,
+                                    "option": "Vendor supports containers but with limitations (examples: functionality is restricted, component has not been tested)",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3571,
+                                    "order": 4,
+                                    "option": "Vendor supports their application running in containers but you must build your own images",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3572,
+                                    "order": 5,
+                                    "option": "Vendor fully supports containers, provides certified images",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3573,
+                                    "order": 6,
+                                    "option": "No third-party components required",
+                                    "checked": true,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "Will the vendor support a component if you run it in a container?"
+                        },
+                        {
+                            "id": 3574,
+                            "order": 4,
+                            "question": "Incoming/northbound dependencies",
+                            "options": [
+                                {
+                                    "id": 3575,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3576,
+                                    "order": 1,
+                                    "option": "Dependencies are difficult or expensive to change because they are legacy or third-party",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3577,
+                                    "order": 2,
+                                    "option": "Many dependencies exist, can be changed but the process is expensive and time-consuming",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3578,
+                                    "order": 3,
+                                    "option": "Many dependencies exist, can be changed because the systems are internally managed",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3579,
+                                    "order": 4,
+                                    "option": "Internal dependencies only",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3580,
+                                    "order": 5,
+                                    "option": "No incoming/northbound dependencies",
+                                    "checked": true,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "Systems or applications that call the application"
+                        },
+                        {
+                            "id": 3581,
+                            "order": 5,
+                            "question": "Outgoing/southbound dependencies",
+                            "options": [
+                                {
+                                    "id": 3582,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3583,
+                                    "order": 1,
+                                    "option": "Dependency availability only verified when application is processing traffic",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3584,
+                                    "order": 2,
+                                    "option": "Dependencies require a complex and strict startup order",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3585,
+                                    "order": 3,
+                                    "option": "Application not ready until dependencies are verified available",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3586,
+                                    "order": 4,
+                                    "option": "Limited processing available if dependencies are unavailable",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3587,
+                                    "order": 5,
+                                    "option": "No outgoing/southbound dependencies",
+                                    "checked": true,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "Systems or applications that the application calls"
+                        }
+                    ],
+                    "comment": ""
+                },
+                {
+                    "id": 3588,
+                    "order": 3,
+                    "title": "Application architecture",
+                    "questions": [
+                        {
+                            "id": 3589,
+                            "order": 1,
+                            "question": "How resilient is the application? How well does it recover from outages and restarts?",
+                            "options": [
+                                {
+                                    "id": 3590,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3591,
+                                    "order": 1,
+                                    "option": "Application cannot be restarted cleanly after failure, requires manual intervention",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3592,
+                                    "order": 2,
+                                    "option": "Application fails when a soutbound dependency is unavailable and does not recover automatically",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3593,
+                                    "order": 3,
+                                    "option": "Application functionality is limited when a dependency is unavailable but recovers when the dependency is available",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3594,
+                                    "order": 4,
+                                    "option": "Application employs resilient architecture patterns (examples: circuit breakers, retry mechanisms)",
+                                    "checked": true,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3595,
+                                    "order": 5,
+                                    "option": "Application containers are randomly terminated to test resiliency; chaos engineering principles are followed",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "If the application or one of its dependencies fails, how does the application recover from failure? Is manual intervention required?"
+                        },
+                        {
+                            "id": 3596,
+                            "order": 2,
+                            "question": "How does the external world communicate with the application?",
+                            "options": [
+                                {
+                                    "id": 3597,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3598,
+                                    "order": 1,
+                                    "option": "Non-TCP/IP protocols (examples: serial, IPX, AppleTalk)",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3599,
+                                    "order": 2,
+                                    "option": "TCP/IP, with host name or IP address encapsulated in the payload",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3600,
+                                    "order": 3,
+                                    "option": "TCP/UDP without host addressing (example: SSH)",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3601,
+                                    "order": 4,
+                                    "option": "TCP/UDP encapsulated, using TLS with SNI header",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3602,
+                                    "order": 5,
+                                    "option": "HTTP/HTTPS",
+                                    "checked": true,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "What protocols do external clients use to communicate with the application?"
+                        },
+                        {
+                            "id": 3603,
+                            "order": 3,
+                            "question": "How does the application manage its internal state?",
+                            "options": [
+                                {
+                                    "id": 3604,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3605,
+                                    "order": 1,
+                                    "option": "Application components use shared memory within a pod",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3606,
+                                    "order": 2,
+                                    "option": "State is managed externally by another product (examples: Zookeeper or Red Hat Data Grid)",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3607,
+                                    "order": 3,
+                                    "option": "State maintained in non-shared, non-ephemeral storage",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3608,
+                                    "order": 4,
+                                    "option": "Disk shared between application instances",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3609,
+                                    "order": 5,
+                                    "option": "Stateless or ephemeral container storage",
+                                    "checked": true,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "If the application must manage or retain an internal state, how is this done?"
+                        },
+                        {
+                            "id": 3610,
+                            "order": 4,
+                            "question": "How does the application handle service discovery?",
+                            "options": [
+                                {
+                                    "id": 3611,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3612,
+                                    "order": 1,
+                                    "option": "Uses technologies that are not compatible with Kubernetes (examples: hardcoded IP addresses, custom cluster manager)",
+                                    "checked": true,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3613,
+                                    "order": 2,
+                                    "option": "Requires an application or cluster restart to discover new service instances",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3614,
+                                    "order": 3,
+                                    "option": "Uses technologies that are compatible with Kubernetes but require specific libraries or services (examples: HashiCorp Consul, Netflix Eureka)",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3615,
+                                    "order": 4,
+                                    "option": "Uses Kubernetes DNS name resolution",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3616,
+                                    "order": 5,
+                                    "option": "Does not require service discovery",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "How does the application discover services?"
+                        },
+                        {
+                            "id": 3617,
+                            "order": 5,
+                            "question": "How is the application clustering managed?",
+                            "options": [
+                                {
+                                    "id": 3618,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3619,
+                                    "order": 1,
+                                    "option": "Manually configured clustering (example: static clusters)",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3620,
+                                    "order": 2,
+                                    "option": "Managed by an external off-PaaS cluster manager",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3621,
+                                    "order": 3,
+                                    "option": "Managed by an application runtime that is compatible with Kubernetes",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3622,
+                                    "order": 4,
+                                    "option": "No cluster management required",
+                                    "checked": true,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "Does the application require clusters? If so, how is clustering managed?"
+                        }
+                    ],
+                    "comment": ""
+                },
+                {
+                    "id": 3623,
+                    "order": 4,
+                    "title": "Application observability",
+                    "questions": [
+                        {
+                            "id": 3624,
+                            "order": 1,
+                            "question": "How does the application use logging and how are the logs accessed?",
+                            "options": [
+                                {
+                                    "id": 3625,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3626,
+                                    "order": 1,
+                                    "option": "Logs are unavailable or are internal with no way to export them",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3627,
+                                    "order": 2,
+                                    "option": "Logs are in a custom binary format, exposed with non-standard protocols",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3628,
+                                    "order": 3,
+                                    "option": "Logs are exposed using syslog",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3629,
+                                    "order": 4,
+                                    "option": "Logs are written to a file system, sometimes as multiple files",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3630,
+                                    "order": 5,
+                                    "option": "Logs are forwarded to an external logging system (example: Splunk)",
+                                    "checked": true,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3631,
+                                    "order": 6,
+                                    "option": "Logs are configurable (example: can be sent to stdout)",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "How the application logs are accessed"
+                        },
+                        {
+                            "id": 3632,
+                            "order": 2,
+                            "question": "Does the application provide metrics?",
+                            "options": [
+                                {
+                                    "id": 3633,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3634,
+                                    "order": 1,
+                                    "option": "No metrics available",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3635,
+                                    "order": 2,
+                                    "option": "Metrics collected but not exposed externally",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3636,
+                                    "order": 3,
+                                    "option": "Metrics exposed using binary protocols (examples: SNMP, JMX)",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3637,
+                                    "order": 4,
+                                    "option": "Metrics exposed using a third-party solution (examples: Dynatrace, AppDynamics)",
+                                    "checked": true,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3638,
+                                    "order": 5,
+                                    "option": "Metrics collected and exposed with built-in Prometheus endpoint support",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "Are application metrics available, if necessary (example: OpenShift Container Platform collects CPU and memory metrics)?"
+                        },
+                        {
+                            "id": 3639,
+                            "order": 3,
+                            "question": "How easy is it to determine the application's health and readiness to handle traffic?",
+                            "options": [
+                                {
+                                    "id": 3640,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3641,
+                                    "order": 1,
+                                    "option": "No health or readiness query functionality available",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3642,
+                                    "order": 2,
+                                    "option": "Monitored and managed by a custom watchdog process",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3643,
+                                    "order": 3,
+                                    "option": "Basic application health requires semi-complex scripting",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3644,
+                                    "order": 4,
+                                    "option": "Dedicated, independent liveness and readiness endpoints",
+                                    "checked": true,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3645,
+                                    "order": 5,
+                                    "option": "Health is verified by probes running synthetic transactions",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "How do we determine an application's health (liveness) and readiness to handle traffic?"
+                        },
+                        {
+                            "id": 3646,
+                            "order": 4,
+                            "question": "What best describes the application's runtime characteristics?",
+                            "options": [
+                                {
+                                    "id": 3647,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3648,
+                                    "order": 1,
+                                    "option": "Deterministic and predictable real-time execution or control requirements",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3649,
+                                    "order": 2,
+                                    "option": "Sensitive to latency (examples: voice applications, high frequency trading applications)",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3650,
+                                    "order": 3,
+                                    "option": "Constant traffic with a broad range of CPU and memory usage",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3651,
+                                    "order": 4,
+                                    "option": "Intermittent traffic with predictable CPU and memory usage",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3652,
+                                    "order": 5,
+                                    "option": "Constant traffic with predictable CPU and memory usage",
+                                    "checked": true,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "How would the profile of an application appear during runtime (examples: graphs showing CPU and memory usage, traffic patterns, latency)? What are the implications for a serverless application?"
+                        },
+                        {
+                            "id": 3653,
+                            "order": 5,
+                            "question": "How long does it take the application to be ready to handle traffic?",
+                            "options": [
+                                {
+                                    "id": 3654,
+                                    "order": 2,
+                                    "option": "2-5 minutes",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3655,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3656,
+                                    "order": 1,
+                                    "option": "More than 5 minutes",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3657,
+                                    "order": 3,
+                                    "option": "1-2 minutes",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3658,
+                                    "order": 4,
+                                    "option": "10-60 seconds",
+                                    "checked": true,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3659,
+                                    "order": 5,
+                                    "option": "Less than 10 seconds",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "How long the application takes to boot"
+                        }
+                    ],
+                    "comment": ""
+                },
+                {
+                    "id": 3660,
+                    "order": 5,
+                    "title": "Application cross-cutting concerns",
+                    "questions": [
+                        {
+                            "id": 3661,
+                            "order": 1,
+                            "question": "How is the application tested?",
+                            "options": [
+                                {
+                                    "id": 3662,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3663,
+                                    "order": 1,
+                                    "option": "No testing or minimal manual testing only",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3664,
+                                    "order": 2,
+                                    "option": "Minimal automated testing, focused on the user interface",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3665,
+                                    "order": 3,
+                                    "option": "Some automated unit and regression testing, basic CI/CD pipeline testing; modern test practices are not followed",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3666,
+                                    "order": 4,
+                                    "option": "Highly repeatable automated testing (examples: unit, integration, smoke tests) before deploying to production; modern test practices are followed",
+                                    "checked": true,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3667,
+                                    "order": 5,
+                                    "option": "Chaos engineering approach, constant testing in production (example: A/B testing + experimentation)",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "Is the application is tested? Is it easy to test (example: automated testing)? Is it tested in production?"
+                        },
+                        {
+                            "id": 3668,
+                            "order": 2,
+                            "question": "How is the application configured?",
+                            "options": [
+                                {
+                                    "id": 3669,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": true,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3670,
+                                    "order": 1,
+                                    "option": "Configuration files compiled during installation and configured using a user interface",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3671,
+                                    "order": 2,
+                                    "option": "Configuration files are stored externally (example: in a database) and accessed using specific environment keys (examples: host name, IP address)",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3672,
+                                    "order": 3,
+                                    "option": "Multiple configuration files in multiple file system locations",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3673,
+                                    "order": 4,
+                                    "option": "Configuration files built into the application and enabled using system properties at runtime",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3674,
+                                    "order": 5,
+                                    "option": "Configuration retrieved from an external server (examples: Spring Cloud Config Server, HashiCorp Consul)",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3675,
+                                    "order": 6,
+                                    "option": "Configuration loaded from files in a single configurable location; environment variables used",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "How is the application configured? Is the configuration method appropriate for a container? External servers are runtime dependencies."
+                        },
+                        {
+                            "id": 3676,
+                            "order": 4,
+                            "question": "How is the application deployed?",
+                            "options": [
+                                {
+                                    "id": 3677,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3678,
+                                    "order": 1,
+                                    "option": "Manual deployment using a user interface",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3679,
+                                    "order": 2,
+                                    "option": "Manual deployment with some automation",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3680,
+                                    "order": 3,
+                                    "option": "Simple automated deployment scripts",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3681,
+                                    "order": 4,
+                                    "option": "Automated deployment with manual intervention or complex promotion through pipeline stages",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3682,
+                                    "order": 5,
+                                    "option": "Automated deployment with a full CI/CD pipeline, minimal intervention for promotion through pipeline stages",
+                                    "checked": true,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3683,
+                                    "order": 6,
+                                    "option": "Fully automated (GitOps), blue-green, or canary deployment",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "How the application is deployed and whether the deployment process is suitable for a container platform"
+                        },
+                        {
+                            "id": 3684,
+                            "order": 5,
+                            "question": "Where is the application deployed?",
+                            "options": [
+                                {
+                                    "id": 3685,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3686,
+                                    "order": 1,
+                                    "option": "Bare metal server",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3687,
+                                    "order": 2,
+                                    "option": "Virtual machine (examples: Red Hat Virtualization, VMware)",
+                                    "checked": true,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3688,
+                                    "order": 3,
+                                    "option": "Private cloud (example: Red Hat OpenStack Platform)",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3689,
+                                    "order": 4,
+                                    "option": "Public cloud provider (examples: Amazon Web Services, Microsoft Azure, Google Cloud Platform)",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3690,
+                                    "order": 5,
+                                    "option": "Platform as a service (examples: Heroku, Force.com, Google App Engine)",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3691,
+                                    "order": 6,
+                                    "option": "Hybrid cloud (public and private cloud providers)",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3692,
+                                    "order": 7,
+                                    "option": "Other. Specify in the comments field",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                }
+                            ],
+                            "description": "Where does the application run?"
+                        },
+                        {
+                            "id": 3693,
+                            "order": 6,
+                            "question": "How mature is the containerization process, if any?",
+                            "options": [
+                                {
+                                    "id": 3694,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3695,
+                                    "order": 1,
+                                    "option": "Application runs in a container on a laptop or desktop",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3696,
+                                    "order": 3,
+                                    "option": "Some experience with containers but not yet fully defined",
+                                    "checked": true,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3697,
+                                    "order": 4,
+                                    "option": "Proficient with containers and container platforms (examples: Swarm, Kubernetes)",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3698,
+                                    "order": 5,
+                                    "option": "Application containerization has not yet been attempted",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "If the team has used containers in the past, how was it done?"
+                        },
+                        {
+                            "id": 3699,
+                            "order": 3,
+                            "question": "How does the application acquire security keys or certificates?",
+                            "options": [
+                                {
+                                    "id": 3700,
+                                    "order": 0,
+                                    "option": "Unknown",
+                                    "checked": false,
+                                    "risk": "UNKNOWN"
+                                },
+                                {
+                                    "id": 3701,
+                                    "order": 1,
+                                    "option": "Hardware security modules or encryption devices",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3702,
+                                    "order": 2,
+                                    "option": "Keys/certificates bound to IP addresses and generated at runtime for each application instance",
+                                    "checked": false,
+                                    "risk": "RED"
+                                },
+                                {
+                                    "id": 3703,
+                                    "order": 3,
+                                    "option": "Keys/certificates compiled into the application",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3704,
+                                    "order": 4,
+                                    "option": "Loaded from a shared disk",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3705,
+                                    "order": 5,
+                                    "option": "Retrieved from an external server (examples: HashiCorp Vault, CyberArk Conjur)",
+                                    "checked": false,
+                                    "risk": "AMBER"
+                                },
+                                {
+                                    "id": 3706,
+                                    "order": 6,
+                                    "option": "Loaded from files",
+                                    "checked": false,
+                                    "risk": "GREEN"
+                                },
+                                {
+                                    "id": 3707,
+                                    "order": 7,
+                                    "option": "Not required",
+                                    "checked": true,
+                                    "risk": "GREEN"
+                                }
+                            ],
+                            "description": "How does the application retrieve credentials, keys, or certificates? External systems are runtime dependencies."
+                        }
+                    ],
+                    "comment": ""
+                }
+            ],
+            "title": "Pathfinder",
+            "language": "null"
+        }
+    },
+    {
         "id": 2980,
         "applicationId": 83,
         "status": "COMPLETE",
@@ -53,14 +1552,14 @@
                                     "id": 2990,
                                     "order": 4,
                                     "option": "Actively developed, SME knowledge is available",
-                                    "checked": false,
+                                    "checked": true,
                                     "risk": "GREEN"
                                 },
                                 {
                                     "id": 2991,
                                     "order": 5,
                                     "option": "Greenfield application",
-                                    "checked": true,
+                                    "checked": false,
                                     "risk": "GREEN"
                                 }
                             ],
@@ -103,14 +1602,14 @@
                                     "id": 2997,
                                     "order": 4,
                                     "option": "SRE (Site Reliability Engineering) approach with a knowledgeable and experienced operations team",
-                                    "checked": false,
+                                    "checked": true,
                                     "risk": "GREEN"
                                 },
                                 {
                                     "id": 2998,
                                     "order": 5,
                                     "option": "DevOps approach with the same team building the application and supporting it in production",
-                                    "checked": true,
+                                    "checked": false,
                                     "risk": "GREEN"
                                 }
                             ],
@@ -561,7 +2060,7 @@
                                     "id": 3061,
                                     "order": 3,
                                     "option": "Many dependencies exist, can be changed because the systems are internally managed",
-                                    "checked": true,
+                                    "checked": false,
                                     "risk": "GREEN"
                                 },
                                 {
@@ -575,7 +2074,7 @@
                                     "id": 3063,
                                     "order": 5,
                                     "option": "No incoming/northbound dependencies",
-                                    "checked": false,
+                                    "checked": true,
                                     "risk": "GREEN"
                                 }
                             ],
@@ -805,7 +2304,7 @@
                                     "id": 3095,
                                     "order": 1,
                                     "option": "Uses technologies that are not compatible with Kubernetes (examples: hardcoded IP addresses, custom cluster manager)",
-                                    "checked": false,
+                                    "checked": true,
                                     "risk": "RED"
                                 },
                                 {
@@ -826,7 +2325,7 @@
                                     "id": 3098,
                                     "order": 4,
                                     "option": "Uses Kubernetes DNS name resolution",
-                                    "checked": true,
+                                    "checked": false,
                                     "risk": "GREEN"
                                 },
                                 {
@@ -934,14 +2433,14 @@
                                     "id": 3113,
                                     "order": 5,
                                     "option": "Logs are forwarded to an external logging system (example: Splunk)",
-                                    "checked": false,
+                                    "checked": true,
                                     "risk": "GREEN"
                                 },
                                 {
                                     "id": 3114,
                                     "order": 6,
                                     "option": "Logs are configurable (example: can be sent to stdout)",
-                                    "checked": true,
+                                    "checked": false,
                                     "risk": "GREEN"
                                 }
                             ],
@@ -1084,14 +2583,14 @@
                                     "id": 3134,
                                     "order": 4,
                                     "option": "Intermittent traffic with predictable CPU and memory usage",
-                                    "checked": true,
+                                    "checked": false,
                                     "risk": "GREEN"
                                 },
                                 {
                                     "id": 3135,
                                     "order": 5,
                                     "option": "Constant traffic with predictable CPU and memory usage",
-                                    "checked": false,
+                                    "checked": true,
                                     "risk": "GREEN"
                                 }
                             ],
@@ -1134,14 +2633,14 @@
                                     "id": 3141,
                                     "order": 4,
                                     "option": "10-60 seconds",
-                                    "checked": false,
+                                    "checked": true,
                                     "risk": "GREEN"
                                 },
                                 {
                                     "id": 3142,
                                     "order": 5,
                                     "option": "Less than 10 seconds",
-                                    "checked": true,
+                                    "checked": false,
                                     "risk": "GREEN"
                                 }
                             ],
@@ -1214,7 +2713,7 @@
                                     "id": 3152,
                                     "order": 0,
                                     "option": "Unknown",
-                                    "checked": false,
+                                    "checked": true,
                                     "risk": "UNKNOWN"
                                 },
                                 {
@@ -1256,7 +2755,7 @@
                                     "id": 3158,
                                     "order": 6,
                                     "option": "Configuration loaded from files in a single configurable location; environment variables used",
-                                    "checked": true,
+                                    "checked": false,
                                     "risk": "GREEN"
                                 }
                             ],
@@ -1306,14 +2805,14 @@
                                     "id": 3165,
                                     "order": 5,
                                     "option": "Automated deployment with a full CI/CD pipeline, minimal intervention for promotion through pipeline stages",
-                                    "checked": false,
+                                    "checked": true,
                                     "risk": "GREEN"
                                 },
                                 {
                                     "id": 3166,
                                     "order": 6,
                                     "option": "Fully automated (GitOps), blue-green, or canary deployment",
-                                    "checked": true,
+                                    "checked": false,
                                     "risk": "GREEN"
                                 }
                             ],
@@ -1342,7 +2841,7 @@
                                     "id": 3170,
                                     "order": 2,
                                     "option": "Virtual machine (examples: Red Hat Virtualization, VMware)",
-                                    "checked": false,
+                                    "checked": true,
                                     "risk": "GREEN"
                                 },
                                 {
@@ -1370,7 +2869,7 @@
                                     "id": 3174,
                                     "order": 6,
                                     "option": "Hybrid cloud (public and private cloud providers)",
-                                    "checked": true,
+                                    "checked": false,
                                     "risk": "GREEN"
                                 },
                                 {
@@ -1406,14 +2905,14 @@
                                     "id": 3179,
                                     "order": 3,
                                     "option": "Some experience with containers but not yet fully defined",
-                                    "checked": false,
+                                    "checked": true,
                                     "risk": "AMBER"
                                 },
                                 {
                                     "id": 3180,
                                     "order": 4,
                                     "option": "Proficient with containers and container platforms (examples: Swarm, Kubernetes)",
-                                    "checked": true,
+                                    "checked": false,
                                     "risk": "GREEN"
                                 },
                                 {
