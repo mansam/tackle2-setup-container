@@ -24,7 +24,7 @@
             },
             {
                 "id": 28,
-                "name": "PostgreSQL"
+                "name": "Postgresql"
             }
         ],
         "businessService": {
@@ -200,7 +200,7 @@
             },
             {
                 "id": 28,
-                "name": "Oracle"
+                "name": "Postgresql"
             }
         ],
         "businessService": {
@@ -224,7 +224,7 @@
             },
             {
                 "id": 28,
-                "name": "Oracle"
+                "name": "Postgresql"
             },
             {
                 "id": 40,
