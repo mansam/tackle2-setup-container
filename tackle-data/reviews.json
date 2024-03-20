@@ -11,8 +11,7 @@
         "application": {
             "id": 83,
             "name": "Orders"
-        },
-        "copiedFromReviewId": 96
+        }
     },
     {
         "id": 96,
@@ -40,7 +39,6 @@
         "application": {
             "id": 85,
             "name": "Gateway"
-        },
-        "copiedFromReviewId": 96
+        }
     }
 ]

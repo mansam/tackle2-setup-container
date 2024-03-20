@@ -4,12 +4,10 @@
         "createUser": "tackle",
         "updateUser": "tackle",
         "to": {
-            "id": 82,
-            "name": "Customers"
+            "id": 82
         },
         "from": {
-            "id": 85,
-            "name": "Gateway"
+            "id": 85
         }
     },
     {
@@ -17,12 +15,10 @@
         "createUser": "tackle",
         "updateUser": "tackle",
         "to": {
-            "id": 83,
-            "name": "Orders"
+            "id": 83
         },
         "from": {
-            "id": 85,
-            "name": "Gateway"
+            "id": 85
         }
     },
     {
@@ -30,12 +26,10 @@
         "createUser": "tackle",
         "updateUser": "tackle",
         "to": {
-            "id": 84,
-            "name": "Inventory"
+            "id": 84
         },
         "from": {
-            "id": 85,
-            "name": "Gateway"
+            "id": 85
         }
     },
     {
@@ -43,12 +37,10 @@
         "createUser": "tackle",
         "updateUser": "tackle",
         "to": {
-            "id": 85,
-            "name": "Gateway"
+            "id": 85
         },
         "from": {
-            "id": 86,
-            "name": "RetailFrontend"
+            "id": 86
         }
     }
 ]
