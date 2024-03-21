@@ -7,18 +7,11 @@
         "email": "hsimpson@globex.com",
         "stakeholderGroups": [
             {
-                "id": 62,
-                "createUser": "tackle",
-                "updateUser": "tackle",
-                "name": "Retail Management",
-                "description": ""
+                "id": 62
             }
         ],
         "jobFunction": {
-            "id": 8,
-            "createUser": "<shipped-data>",
-            "updateUser": "<shipped-data>",
-            "name": "Project Manager"
+            "id": 8
         }
     },
     {
@@ -29,18 +22,11 @@
         "email": "hscorpio@globex.com",
         "stakeholderGroups": [
             {
-                "id": 61,
-                "createUser": "tackle",
-                "updateUser": "tackle",
-                "name": "IT Management",
-                "description": ""
+                "id": 61
             }
         ],
         "jobFunction": {
-            "id": 9,
-            "createUser": "<shipped-data>",
-            "updateUser": "<shipped-data>",
-            "name": "Service Owner"
+            "id": 9
         }
     }
 ]
