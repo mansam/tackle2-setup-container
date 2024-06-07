@@ -1,16 +1,62 @@
 [
     {
-        "id": 62,
-        "createUser": "tackle",
-        "updateUser": "tackle",
+        "id": 1,
+        "createUser": "admin",
+        "updateUser": "",
+        "createTime": "2024-05-28T15:33:45.026910236Z",
         "name": "Retail Management",
-        "description": ""
+        "description": "",
+        "stakeholders": [
+            {
+                "id": 4,
+                "name": "Stefan Richard"
+            },
+            {
+                "id": 7,
+                "name": "Latifah Tri"
+            },
+            {
+                "id": 10,
+                "name": "Valentina Hardin"
+            }
+        ],
+        "migrationWaves": [
+            {
+                "id": 2,
+                "name": "Sprint 2"
+            },
+            {
+                "id": 3,
+                "name": "Sprint 3"
+            }
+        ]
     },
     {
-        "id": 61,
-        "createUser": "tackle",
-        "updateUser": "tackle",
+        "id": 2,
+        "createUser": "admin",
+        "updateUser": "",
+        "createTime": "2024-05-28T15:33:59.107640246Z",
         "name": "IT Management",
-        "description": ""
+        "description": "",
+        "stakeholders": [
+            {
+                "id": 2,
+                "name": "Paul Ferrel"
+            },
+            {
+                "id": 5,
+                "name": "Melanie Barlow"
+            },
+            {
+                "id": 9,
+                "name": "Brendon Hayes"
+            }
+        ],
+        "migrationWaves": [
+            {
+                "id": 3,
+                "name": "Sprint 3"
+            }
+        ]
     }
 ]

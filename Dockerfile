@@ -15,10 +15,11 @@ RUN adduser deployer --home-dir=/home/deployer  && \
 
 COPY deployer.sh /home/deployer/deployer.sh
 
-RUN git clone https://github.com/konveyor/tackle2-hub.git /home/deployer/tackle2-hub && \
-    cd /home/deployer/tackle2-hub && \
-    git checkout $TACKLE2_VERSION && \
-    cd -
+RUN git clone https://github.com/konveyor/tackle2-hub.git /home/deployer/tackle2-hub
+# RUN git clone https://github.com/konveyor/tackle2-hub.git /home/deployer/tackle2-hub && \
+#     cd /home/deployer/tackle2-hub && \
+#     git checkout $TACKLE2_VERSION && \
+#     cd -
 
 ADD tackle-data /home/deployer/tackle2-hub/hack/tool/tackle-data
 COPY tackle-config.yml /home/deployer/tackle2-hub/hack/tool/tackle-config.yml

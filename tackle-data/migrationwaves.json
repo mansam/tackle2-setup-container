@@ -1,0 +1,118 @@
+[
+    {
+        "id": 1,
+        "createUser": "admin",
+        "updateUser": "admin",
+        "createTime": "2024-05-29T15:07:08.268536011Z",
+        "name": "Sprint 1",
+        "startDate": "2024-05-29T00:00:00+02:00",
+        "endDate": "2024-06-08T00:00:00+02:00",
+        "applications": [
+            {
+                "id": 1,
+                "name": "Customers"
+            },
+            {
+                "id": 8,
+                "name": "Flexicard"
+            },
+            {
+                "id": 9,
+                "name": "AccountsReceivable"
+            }
+        ],
+        "stakeholders": [
+            {
+                "id": 1,
+                "name": "Katy Cook"
+            },
+            {
+                "id": 2,
+                "name": "Paul Ferrel"
+            }
+        ],
+        "stakeholderGroups": []
+    },
+    {
+        "id": 2,
+        "createUser": "admin",
+        "updateUser": "admin",
+        "createTime": "2024-05-29T15:08:44.346794361Z",
+        "name": "Sprint 2",
+        "startDate": "2024-06-09T00:00:00+02:00",
+        "endDate": "2024-06-22T00:00:00+02:00",
+        "applications": [
+            {
+                "id": 3,
+                "name": "Inventory"
+            },
+            {
+                "id": 4,
+                "name": "Gateway"
+            },
+            {
+                "id": 10,
+                "name": "OrangeHRM"
+            }
+        ],
+        "stakeholders": [
+            {
+                "id": 3,
+                "name": "Sanaa Cantu"
+            },
+            {
+                "id": 12,
+                "name": "Lena Bentley"
+            }
+        ],
+        "stakeholderGroups": [
+            {
+                "id": 1,
+                "name": "Retail Management"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "createUser": "admin",
+        "updateUser": "admin",
+        "createTime": "2024-05-29T15:10:00.14967646Z",
+        "name": "Sprint 3",
+        "startDate": "2024-06-23T00:00:00+02:00",
+        "endDate": "2024-07-06T00:00:00+02:00",
+        "applications": [
+            {
+                "id": 2,
+                "name": "Orders"
+            },
+            {
+                "id": 5,
+                "name": "RetailFrontend"
+            },
+            {
+                "id": 6,
+                "name": "Payroll"
+            },
+            {
+                "id": 7,
+                "name": "PurchaseOrders"
+            }
+        ],
+        "stakeholders": [
+            {
+                "id": 13,
+                "name": "Madhukar Kean"
+            }
+        ],
+        "stakeholderGroups": [
+            {
+                "id": 1,
+                "name": "Retail Management"
+            },
+            {
+                "id": 2,
+                "name": "IT Management"
+            }
+        ]
+    }
+]

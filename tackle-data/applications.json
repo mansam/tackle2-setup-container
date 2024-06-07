@@ -1,262 +1,1656 @@
 [
     {
-        "id": 82,
-        "createUser": "tackle",
-        "updateUser": "tackle",
+        "id": 1,
+        "createUser": "",
+        "updateUser": "admin",
+        "createTime": "2024-05-28T13:52:49.633104668Z",
         "name": "Customers",
         "description": "Legacy Customers management service",
+        "bucket": {
+            "id": 1
+        },
+        "review": null,
+        "comments": "",
+        "identities": [],
         "tags": [
             {
-                "id": 44,
-                "name": "Tomcat"
+                "id": 10,
+                "name": "Oracle"
             },
             {
-                "id": 34,
+                "id": 16,
                 "name": "Java"
             },
             {
-                "id": 56,
-                "name": "Corporate Custom Configuration Library"
-            },
-            {
-                "id": 57,
+                "id": 19,
                 "name": "RHEL 8"
-            },
-            {
-                "id": 58,
-                "name": "Postgresql"
-            }
-        ],
-        "businessService": {
-            "id": 53
-        }
-    },
-    {
-        "id": 83,
-        "createUser": "tackle",
-        "updateUser": "tackle",
-        "name": "Orders",
-        "description": "Orders Service",
-        "tags": [
-            {
-                "id": 34,
-                "name": "Java"
-            },
-            {
-                "id": 57,
-                "name": "RHEL 8"
-            },
-            {
-                "id": 58,
-                "name": "Postgresql"
-            },
-            {
-                "id": 43,
-                "name": "Spring Boot"
-            }
-        ],
-        "businessService": {
-            "id": 53
-        }
-    },
-    {
-        "id": 84,
-        "createUser": "tackle",
-        "updateUser": "tackle",
-        "name": "Inventory",
-        "description": "Inventory service",
-        "tags": [
-            {
-                "id": 34,
-                "name": "Java"
-            },
-            {
-                "id": 57,
-                "name": "RHEL 8"
-            },
-            {
-                "id": 58,
-                "name": "Postgresql"
-            },
-            {
-                "id": 42,
-                "name": "Quarkus"
-            }
-        ],
-        "businessService": {
-            "id": 53
-        }
-    },
-    {
-        "id": 85,
-        "createUser": "tackle",
-        "updateUser": "tackle",
-        "name": "Gateway",
-        "description": "API Gateway",
-        "tags": [
-            {
-                "id": 34,
-                "name": "Java"
-            },
-            {
-                "id": 57,
-                "name": "RHEL 8"
-            },
-            {
-                "id": 43,
-                "name": "Spring Boot"
-            }
-        ],
-        "businessService": {
-            "id": 53
-        }
-    },
-    {
-        "id": 86,
-        "createUser": "tackle",
-        "updateUser": "tackle",
-        "name": "RetailFrontend",
-        "description": "Frontend for the Retail application",
-        "tags": [
-            {
-                "id": 57,
-                "name": "RHEL 8"
-            },
-            {
-                "id": 35,
-                "name": "Javascript"
-            }
-        ],
-        "businessService": {
-            "id": 53
-        }
-    },
-    {
-        "id": 87,
-        "createUser": "tackle",
-        "updateUser": "tackle",
-        "name": "Payroll",
-        "description": "Payroll management system",
-        "tags": [
-            {
-                "id": 34,
-                "name": "Java"
-            },
-            {
-                "id": 57,
-                "name": "RHEL 8"
-            },
-            {
-                "id": 58,
-                "name": "Postgresql"
-            }
-        ],
-        "businessService": {
-            "id": 54
-        }
-    },
-    {
-        "id": 88,
-        "createUser": "tackle",
-        "updateUser": "tackle",
-        "name": "PurchaseOrders",
-        "description": "Requistions, Purchase Orders and Goods Receipting",
-        "tags": [
-            {
-                "id": 34,
-                "name": "Java"
-            },
-            {
-                "id": 57,
-                "name": "RHEL 8"
-            },
-            {
-                "id": 46,
-                "name": "WebSphere"
             },
             {
                 "id": 26,
-                "name": "DB2"
+                "name": "Tomcat"
+            },
+            {
+                "id": 48,
+                "name": "EJB XML",
+                "source": "Analysis"
+            },
+            {
+                "id": 98,
+                "name": "Servlet",
+                "source": "Analysis"
+            },
+            {
+                "id": 107,
+                "name": "Micrometer",
+                "source": "Analysis"
+            },
+            {
+                "id": 142,
+                "name": "Spring"
+            },
+            {
+                "id": 143,
+                "name": "Spring DI",
+                "source": "Analysis"
+            },
+            {
+                "id": 216,
+                "name": "Spring MVC"
+            },
+            {
+                "id": 242,
+                "name": "Spring Data"
+            },
+            {
+                "id": 259,
+                "name": "JNI",
+                "source": "Analysis"
+            },
+            {
+                "id": 261,
+                "name": "Properties",
+                "source": "Analysis"
+            },
+            {
+                "id": 274,
+                "name": "Spring Data JPA",
+                "source": "Analysis"
+            },
+            {
+                "id": 407,
+                "name": "Spring Web",
+                "source": "Analysis"
+            },
+            {
+                "id": 412,
+                "name": "Corporate Custom Configuration Library"
+            },
+            {
+                "id": 413,
+                "name": "Spring Web",
+                "source": "Analysis"
+            },
+            {
+                "id": 414,
+                "name": "Spring Web",
+                "source": "Analysis"
+            },
+            {
+                "id": 415,
+                "name": "Spring DI",
+                "source": "Analysis"
+            },
+            {
+                "id": 416,
+                "name": "EJB XML",
+                "source": "Analysis"
+            },
+            {
+                "id": 417,
+                "name": "Servlet",
+                "source": "Analysis"
+            },
+            {
+                "id": 418,
+                "name": "Properties",
+                "source": "Analysis"
+            },
+            {
+                "id": 419,
+                "name": "JNI",
+                "source": "Analysis"
+            },
+            {
+                "id": 420,
+                "name": "Properties",
+                "source": "Analysis"
+            },
+            {
+                "id": 421,
+                "name": "JNI",
+                "source": "Analysis"
+            },
+            {
+                "id": 422,
+                "name": "Spring DI",
+                "source": "Analysis"
+            },
+            {
+                "id": 423,
+                "name": "Spring Data JPA",
+                "source": "Analysis"
+            },
+            {
+                "id": 424,
+                "name": "EJB XML",
+                "source": "Analysis"
+            },
+            {
+                "id": 425,
+                "name": "Servlet",
+                "source": "Analysis"
+            },
+            {
+                "id": 426,
+                "name": "Micrometer",
+                "source": "Analysis"
+            },
+            {
+                "id": 427,
+                "name": "Micrometer",
+                "source": "Analysis"
+            },
+            {
+                "id": 428,
+                "name": "Spring Data JPA",
+                "source": "Analysis"
+            },
+            {
+                "id": 26,
+                "name": "Tomcat",
+                "source": "archetype",
+                "virtual": true
+            },
+            {
+                "id": 429,
+                "name": "Summer Framework",
+                "source": "archetype",
+                "virtual": true
             }
         ],
         "businessService": {
-            "id": 54
-        }
+            "id": 1,
+            "name": "Retail"
+        },
+        "owner": {
+            "id": 1,
+            "name": "Katy Cook"
+        },
+        "contributors": [
+            {
+                "id": 2,
+                "name": "Paul Ferrel"
+            },
+            {
+                "id": 3,
+                "name": "Sanaa Cantu"
+            },
+            {
+                "id": 4,
+                "name": "Stefan Richard"
+            }
+        ],
+        "migrationWave": {
+            "id": 1,
+            "name": "Sprint 1"
+        },
+        "archetypes": [
+            {
+                "id": 3,
+                "name": "Summer Framework"
+            }
+        ],
+        "assessments": [],
+        "assessed": true,
+        "risk": "green",
+        "confidence": 46,
+        "effort": 12
     },
     {
-        "id": 89,
-        "createUser": "tackle",
-        "updateUser": "tackle",
+        "id": 2,
+        "createUser": "",
+        "updateUser": "admin",
+        "createTime": "2024-05-28T13:52:49.637996646Z",
+        "name": "Orders",
+        "description": "Orders Service",
+        "bucket": {
+            "id": 2
+        },
+        "review": null,
+        "comments": "",
+        "identities": [],
+        "tags": [
+            {
+                "id": 11,
+                "name": "PostgreSQL"
+            },
+            {
+                "id": 16,
+                "name": "Java"
+            },
+            {
+                "id": 19,
+                "name": "RHEL 8"
+            },
+            {
+                "id": 25,
+                "name": "Spring Boot"
+            },
+            {
+                "id": 431,
+                "name": "CloudNEXT Retail Framework",
+                "source": "archetype",
+                "virtual": true
+            },
+            {
+                "id": 432,
+                "name": "Kubernetes",
+                "source": "archetype",
+                "virtual": true
+            }
+        ],
+        "businessService": {
+            "id": 1,
+            "name": "Retail"
+        },
+        "owner": {
+            "id": 5,
+            "name": "Melanie Barlow"
+        },
+        "contributors": [
+            {
+                "id": 6,
+                "name": "Lujza Fleur"
+            },
+            {
+                "id": 7,
+                "name": "Latifah Tri"
+            }
+        ],
+        "migrationWave": {
+            "id": 3,
+            "name": "Sprint 3"
+        },
+        "archetypes": [
+            {
+                "id": 2,
+                "name": "CloudNEXT Retail Framework"
+            }
+        ],
+        "assessments": [],
+        "assessed": false,
+        "risk": "unassessed",
+        "confidence": 0,
+        "effort": 0
+    },
+    {
+        "id": 3,
+        "createUser": "",
+        "updateUser": "admin",
+        "createTime": "2024-05-28T13:52:49.642457992Z",
+        "name": "Inventory",
+        "description": "Inventory service",
+        "bucket": {
+            "id": 3
+        },
+        "review": null,
+        "comments": "",
+        "identities": [],
+        "tags": [
+            {
+                "id": 11,
+                "name": "PostgreSQL"
+            },
+            {
+                "id": 16,
+                "name": "Java"
+            },
+            {
+                "id": 19,
+                "name": "RHEL 8"
+            },
+            {
+                "id": 25,
+                "name": "Spring Boot"
+            },
+            {
+                "id": 431,
+                "name": "CloudNEXT Retail Framework",
+                "source": "archetype",
+                "virtual": true
+            },
+            {
+                "id": 432,
+                "name": "Kubernetes",
+                "source": "archetype",
+                "virtual": true
+            }
+        ],
+        "businessService": {
+            "id": 1,
+            "name": "Retail"
+        },
+        "owner": {
+            "id": 8,
+            "name": "Kristina Ward"
+        },
+        "contributors": [
+            {
+                "id": 9,
+                "name": "Brendon Hayes"
+            },
+            {
+                "id": 10,
+                "name": "Valentina Hardin"
+            }
+        ],
+        "migrationWave": {
+            "id": 2,
+            "name": "Sprint 2"
+        },
+        "archetypes": [
+            {
+                "id": 2,
+                "name": "CloudNEXT Retail Framework"
+            }
+        ],
+        "assessments": [],
+        "assessed": false,
+        "risk": "unassessed",
+        "confidence": 0,
+        "effort": 0
+    },
+    {
+        "id": 4,
+        "createUser": "",
+        "updateUser": "admin",
+        "createTime": "2024-05-28T13:52:49.6475205Z",
+        "name": "Gateway",
+        "description": "API Gateway",
+        "bucket": {
+            "id": 4
+        },
+        "review": null,
+        "comments": "",
+        "identities": [],
+        "tags": [
+            {
+                "id": 16,
+                "name": "Java"
+            },
+            {
+                "id": 19,
+                "name": "RHEL 8"
+            },
+            {
+                "id": 25,
+                "name": "Spring Boot"
+            },
+            {
+                "id": 431,
+                "name": "CloudNEXT Retail Framework",
+                "source": "archetype",
+                "virtual": true
+            },
+            {
+                "id": 432,
+                "name": "Kubernetes",
+                "source": "archetype",
+                "virtual": true
+            }
+        ],
+        "businessService": {
+            "id": 1,
+            "name": "Retail"
+        },
+        "owner": {
+            "id": 11,
+            "name": "Jasper Ruiz"
+        },
+        "contributors": [
+            {
+                "id": 4,
+                "name": "Stefan Richard"
+            },
+            {
+                "id": 12,
+                "name": "Lena Bentley"
+            }
+        ],
+        "migrationWave": {
+            "id": 2,
+            "name": "Sprint 2"
+        },
+        "archetypes": [
+            {
+                "id": 2,
+                "name": "CloudNEXT Retail Framework"
+            }
+        ],
+        "assessments": [],
+        "assessed": false,
+        "risk": "unassessed",
+        "confidence": 0,
+        "effort": 0
+    },
+    {
+        "id": 5,
+        "createUser": "",
+        "updateUser": "admin",
+        "createTime": "2024-05-28T13:52:49.653182316Z",
+        "name": "RetailFrontend",
+        "description": "Frontend for the Retail application",
+        "bucket": {
+            "id": 5
+        },
+        "review": null,
+        "comments": "",
+        "identities": [],
+        "tags": [
+            {
+                "id": 17,
+                "name": "Javascript"
+            },
+            {
+                "id": 19,
+                "name": "RHEL 8"
+            }
+        ],
+        "businessService": {
+            "id": 1,
+            "name": "Retail"
+        },
+        "owner": {
+            "id": 13,
+            "name": "Madhukar Kean"
+        },
+        "contributors": [
+            {
+                "id": 14,
+                "name": "Stanislava Willemina"
+            },
+            {
+                "id": 15,
+                "name": "Malai Elian"
+            }
+        ],
+        "migrationWave": {
+            "id": 3,
+            "name": "Sprint 3"
+        },
+        "archetypes": null,
+        "assessments": [],
+        "assessed": false,
+        "risk": "unassessed",
+        "confidence": 0,
+        "effort": 0
+    },
+    {
+        "id": 6,
+        "createUser": "",
+        "updateUser": "admin",
+        "createTime": "2024-05-28T13:52:49.659849662Z",
+        "name": "Payroll",
+        "description": "Payroll management system",
+        "bucket": {
+            "id": 6
+        },
+        "review": null,
+        "comments": "",
+        "identities": [],
+        "tags": [
+            {
+                "id": 11,
+                "name": "PostgreSQL"
+            },
+            {
+                "id": 16,
+                "name": "Java"
+            },
+            {
+                "id": 19,
+                "name": "RHEL 8"
+            },
+            {
+                "id": 48,
+                "name": "EJB XML",
+                "source": "Analysis"
+            },
+            {
+                "id": 78,
+                "name": "Spring Properties",
+                "source": "Analysis"
+            },
+            {
+                "id": 98,
+                "name": "Servlet",
+                "source": "Analysis"
+            },
+            {
+                "id": 107,
+                "name": "Micrometer",
+                "source": "Analysis"
+            },
+            {
+                "id": 121,
+                "name": "CDI",
+                "source": "Analysis"
+            },
+            {
+                "id": 143,
+                "name": "Spring DI",
+                "source": "Analysis"
+            },
+            {
+                "id": 199,
+                "name": "JSF"
+            },
+            {
+                "id": 255,
+                "name": "Java EE JAXR"
+            },
+            {
+                "id": 257,
+                "name": "JCA",
+                "source": "Analysis"
+            },
+            {
+                "id": 259,
+                "name": "JNI",
+                "source": "Analysis"
+            },
+            {
+                "id": 260,
+                "name": "Mail",
+                "source": "Analysis"
+            },
+            {
+                "id": 261,
+                "name": "Properties",
+                "source": "Analysis"
+            },
+            {
+                "id": 270,
+                "name": "JPA entities"
+            },
+            {
+                "id": 274,
+                "name": "Spring Data JPA",
+                "source": "Analysis"
+            },
+            {
+                "id": 280,
+                "name": "Java EE JSON-P",
+                "source": "Analysis"
+            },
+            {
+                "id": 284,
+                "name": "Spring Scheduled",
+                "source": "Analysis"
+            },
+            {
+                "id": 381,
+                "name": "Java Transaction API"
+            },
+            {
+                "id": 407,
+                "name": "Spring Web",
+                "source": "Analysis"
+            },
+            {
+                "id": 413,
+                "name": "Spring Web",
+                "source": "Analysis"
+            },
+            {
+                "id": 414,
+                "name": "Spring Web",
+                "source": "Analysis"
+            },
+            {
+                "id": 415,
+                "name": "Spring DI",
+                "source": "Analysis"
+            },
+            {
+                "id": 416,
+                "name": "EJB XML",
+                "source": "Analysis"
+            },
+            {
+                "id": 417,
+                "name": "Servlet",
+                "source": "Analysis"
+            },
+            {
+                "id": 418,
+                "name": "Properties",
+                "source": "Analysis"
+            },
+            {
+                "id": 419,
+                "name": "JNI",
+                "source": "Analysis"
+            },
+            {
+                "id": 420,
+                "name": "Properties",
+                "source": "Analysis"
+            },
+            {
+                "id": 421,
+                "name": "JNI",
+                "source": "Analysis"
+            },
+            {
+                "id": 422,
+                "name": "Spring DI",
+                "source": "Analysis"
+            },
+            {
+                "id": 423,
+                "name": "Spring Data JPA",
+                "source": "Analysis"
+            },
+            {
+                "id": 424,
+                "name": "EJB XML",
+                "source": "Analysis"
+            },
+            {
+                "id": 425,
+                "name": "Servlet",
+                "source": "Analysis"
+            },
+            {
+                "id": 426,
+                "name": "Micrometer",
+                "source": "Analysis"
+            },
+            {
+                "id": 427,
+                "name": "Micrometer",
+                "source": "Analysis"
+            },
+            {
+                "id": 428,
+                "name": "Spring Data JPA",
+                "source": "Analysis"
+            },
+            {
+                "id": 433,
+                "name": "Spring Properties",
+                "source": "Analysis"
+            },
+            {
+                "id": 434,
+                "name": "Mail",
+                "source": "Analysis"
+            },
+            {
+                "id": 435,
+                "name": "Java EE JSON-P",
+                "source": "Analysis"
+            },
+            {
+                "id": 436,
+                "name": "Mail",
+                "source": "Analysis"
+            },
+            {
+                "id": 437,
+                "name": "Spring Scheduled",
+                "source": "Analysis"
+            },
+            {
+                "id": 438,
+                "name": "Spring Properties",
+                "source": "Analysis"
+            },
+            {
+                "id": 439,
+                "name": "JCA",
+                "source": "Analysis"
+            },
+            {
+                "id": 440,
+                "name": "CDI",
+                "source": "Analysis"
+            },
+            {
+                "id": 441,
+                "name": "Spring Scheduled",
+                "source": "Analysis"
+            },
+            {
+                "id": 442,
+                "name": "CDI",
+                "source": "Analysis"
+            },
+            {
+                "id": 443,
+                "name": "Java EE JSON-P",
+                "source": "Analysis"
+            },
+            {
+                "id": 444,
+                "name": "JCA",
+                "source": "Analysis"
+            },
+            {
+                "id": 22,
+                "name": "EAP",
+                "source": "archetype",
+                "virtual": true
+            },
+            {
+                "id": 430,
+                "name": "ExtEEnsions",
+                "source": "archetype",
+                "virtual": true
+            }
+        ],
+        "businessService": {
+            "id": 2,
+            "name": "Finance and HR"
+        },
+        "owner": {
+            "id": 16,
+            "name": "Leith Alhaji"
+        },
+        "contributors": [
+            {
+                "id": 17,
+                "name": "Jonathan Garrison"
+            },
+            {
+                "id": 18,
+                "name": "James Ryan"
+            }
+        ],
+        "migrationWave": {
+            "id": 3,
+            "name": "Sprint 3"
+        },
+        "archetypes": [
+            {
+                "id": 1,
+                "name": "ExtEEnsions"
+            }
+        ],
+        "assessments": [],
+        "assessed": true,
+        "risk": "red",
+        "confidence": 7,
+        "effort": 8443
+    },
+    {
+        "id": 7,
+        "createUser": "",
+        "updateUser": "admin",
+        "createTime": "2024-05-28T13:52:49.668725734Z",
+        "name": "PurchaseOrders",
+        "description": "Requistions, Purchase Orders and Goods Receipting",
+        "bucket": {
+            "id": 7
+        },
+        "review": null,
+        "comments": "",
+        "identities": [],
+        "tags": [
+            {
+                "id": 8,
+                "name": "DB2"
+            },
+            {
+                "id": 16,
+                "name": "Java"
+            },
+            {
+                "id": 19,
+                "name": "RHEL 8"
+            },
+            {
+                "id": 48,
+                "name": "EJB XML",
+                "source": "Analysis"
+            },
+            {
+                "id": 98,
+                "name": "Servlet",
+                "source": "Analysis"
+            },
+            {
+                "id": 107,
+                "name": "Micrometer",
+                "source": "Analysis"
+            },
+            {
+                "id": 142,
+                "name": "Spring"
+            },
+            {
+                "id": 143,
+                "name": "Spring DI",
+                "source": "Analysis"
+            },
+            {
+                "id": 216,
+                "name": "Spring MVC"
+            },
+            {
+                "id": 242,
+                "name": "Spring Data"
+            },
+            {
+                "id": 259,
+                "name": "JNI",
+                "source": "Analysis"
+            },
+            {
+                "id": 261,
+                "name": "Properties",
+                "source": "Analysis"
+            },
+            {
+                "id": 274,
+                "name": "Spring Data JPA",
+                "source": "Analysis"
+            },
+            {
+                "id": 407,
+                "name": "Spring Web",
+                "source": "Analysis"
+            },
+            {
+                "id": 413,
+                "name": "Spring Web",
+                "source": "Analysis"
+            },
+            {
+                "id": 414,
+                "name": "Spring Web",
+                "source": "Analysis"
+            },
+            {
+                "id": 415,
+                "name": "Spring DI",
+                "source": "Analysis"
+            },
+            {
+                "id": 416,
+                "name": "EJB XML",
+                "source": "Analysis"
+            },
+            {
+                "id": 417,
+                "name": "Servlet",
+                "source": "Analysis"
+            },
+            {
+                "id": 418,
+                "name": "Properties",
+                "source": "Analysis"
+            },
+            {
+                "id": 419,
+                "name": "JNI",
+                "source": "Analysis"
+            },
+            {
+                "id": 420,
+                "name": "Properties",
+                "source": "Analysis"
+            },
+            {
+                "id": 421,
+                "name": "JNI",
+                "source": "Analysis"
+            },
+            {
+                "id": 422,
+                "name": "Spring DI",
+                "source": "Analysis"
+            },
+            {
+                "id": 423,
+                "name": "Spring Data JPA",
+                "source": "Analysis"
+            },
+            {
+                "id": 424,
+                "name": "EJB XML",
+                "source": "Analysis"
+            },
+            {
+                "id": 425,
+                "name": "Servlet",
+                "source": "Analysis"
+            },
+            {
+                "id": 426,
+                "name": "Micrometer",
+                "source": "Analysis"
+            },
+            {
+                "id": 427,
+                "name": "Micrometer",
+                "source": "Analysis"
+            },
+            {
+                "id": 428,
+                "name": "Spring Data JPA",
+                "source": "Analysis"
+            },
+            {
+                "id": 26,
+                "name": "Tomcat",
+                "source": "archetype",
+                "virtual": true
+            },
+            {
+                "id": 429,
+                "name": "Summer Framework",
+                "source": "archetype",
+                "virtual": true
+            }
+        ],
+        "businessService": {
+            "id": 2,
+            "name": "Finance and HR"
+        },
+        "owner": {
+            "id": 19,
+            "name": "Borja Cavan"
+        },
+        "contributors": [
+            {
+                "id": 20,
+                "name": "Jamie Davis"
+            },
+            {
+                "id": 21,
+                "name": "Sienna Osborn"
+            }
+        ],
+        "migrationWave": {
+            "id": 3,
+            "name": "Sprint 3"
+        },
+        "archetypes": [
+            {
+                "id": 3,
+                "name": "Summer Framework"
+            }
+        ],
+        "assessments": [],
+        "assessed": true,
+        "risk": "green",
+        "confidence": 46,
+        "effort": 12
+    },
+    {
+        "id": 8,
+        "createUser": "",
+        "updateUser": "admin",
+        "createTime": "2024-05-28T13:52:49.674633446Z",
         "name": "Flexicard",
         "description": "Account Managment for Credit Cards",
+        "bucket": {
+            "id": 8
+        },
+        "review": null,
+        "comments": "",
+        "identities": [],
         "tags": [
             {
-                "id": 34,
+                "id": 10,
+                "name": "Oracle"
+            },
+            {
+                "id": 16,
                 "name": "Java"
             },
             {
-                "id": 57,
+                "id": 19,
                 "name": "RHEL 8"
             },
             {
-                "id": 58,
-                "name": "Postgresql"
+                "id": 48,
+                "name": "EJB XML",
+                "source": "Analysis"
+            },
+            {
+                "id": 78,
+                "name": "Spring Properties",
+                "source": "Analysis"
+            },
+            {
+                "id": 98,
+                "name": "Servlet",
+                "source": "Analysis"
+            },
+            {
+                "id": 107,
+                "name": "Micrometer",
+                "source": "Analysis"
+            },
+            {
+                "id": 121,
+                "name": "CDI",
+                "source": "Analysis"
+            },
+            {
+                "id": 143,
+                "name": "Spring DI",
+                "source": "Analysis"
+            },
+            {
+                "id": 199,
+                "name": "JSF"
+            },
+            {
+                "id": 255,
+                "name": "Java EE JAXR"
+            },
+            {
+                "id": 257,
+                "name": "JCA",
+                "source": "Analysis"
+            },
+            {
+                "id": 259,
+                "name": "JNI",
+                "source": "Analysis"
+            },
+            {
+                "id": 260,
+                "name": "Mail",
+                "source": "Analysis"
+            },
+            {
+                "id": 261,
+                "name": "Properties",
+                "source": "Analysis"
+            },
+            {
+                "id": 270,
+                "name": "JPA entities"
+            },
+            {
+                "id": 274,
+                "name": "Spring Data JPA",
+                "source": "Analysis"
+            },
+            {
+                "id": 280,
+                "name": "Java EE JSON-P",
+                "source": "Analysis"
+            },
+            {
+                "id": 284,
+                "name": "Spring Scheduled",
+                "source": "Analysis"
+            },
+            {
+                "id": 381,
+                "name": "Java Transaction API"
+            },
+            {
+                "id": 407,
+                "name": "Spring Web",
+                "source": "Analysis"
+            },
+            {
+                "id": 413,
+                "name": "Spring Web",
+                "source": "Analysis"
+            },
+            {
+                "id": 414,
+                "name": "Spring Web",
+                "source": "Analysis"
+            },
+            {
+                "id": 415,
+                "name": "Spring DI",
+                "source": "Analysis"
+            },
+            {
+                "id": 416,
+                "name": "EJB XML",
+                "source": "Analysis"
+            },
+            {
+                "id": 417,
+                "name": "Servlet",
+                "source": "Analysis"
+            },
+            {
+                "id": 418,
+                "name": "Properties",
+                "source": "Analysis"
+            },
+            {
+                "id": 419,
+                "name": "JNI",
+                "source": "Analysis"
+            },
+            {
+                "id": 420,
+                "name": "Properties",
+                "source": "Analysis"
+            },
+            {
+                "id": 421,
+                "name": "JNI",
+                "source": "Analysis"
+            },
+            {
+                "id": 422,
+                "name": "Spring DI",
+                "source": "Analysis"
+            },
+            {
+                "id": 423,
+                "name": "Spring Data JPA",
+                "source": "Analysis"
+            },
+            {
+                "id": 424,
+                "name": "EJB XML",
+                "source": "Analysis"
+            },
+            {
+                "id": 425,
+                "name": "Servlet",
+                "source": "Analysis"
+            },
+            {
+                "id": 426,
+                "name": "Micrometer",
+                "source": "Analysis"
+            },
+            {
+                "id": 427,
+                "name": "Micrometer",
+                "source": "Analysis"
+            },
+            {
+                "id": 428,
+                "name": "Spring Data JPA",
+                "source": "Analysis"
+            },
+            {
+                "id": 433,
+                "name": "Spring Properties",
+                "source": "Analysis"
+            },
+            {
+                "id": 434,
+                "name": "Mail",
+                "source": "Analysis"
+            },
+            {
+                "id": 435,
+                "name": "Java EE JSON-P",
+                "source": "Analysis"
+            },
+            {
+                "id": 436,
+                "name": "Mail",
+                "source": "Analysis"
+            },
+            {
+                "id": 437,
+                "name": "Spring Scheduled",
+                "source": "Analysis"
+            },
+            {
+                "id": 438,
+                "name": "Spring Properties",
+                "source": "Analysis"
+            },
+            {
+                "id": 439,
+                "name": "JCA",
+                "source": "Analysis"
+            },
+            {
+                "id": 440,
+                "name": "CDI",
+                "source": "Analysis"
+            },
+            {
+                "id": 441,
+                "name": "Spring Scheduled",
+                "source": "Analysis"
+            },
+            {
+                "id": 442,
+                "name": "CDI",
+                "source": "Analysis"
+            },
+            {
+                "id": 443,
+                "name": "Java EE JSON-P",
+                "source": "Analysis"
+            },
+            {
+                "id": 444,
+                "name": "JCA",
+                "source": "Analysis"
+            },
+            {
+                "id": 22,
+                "name": "EAP",
+                "source": "archetype",
+                "virtual": true
+            },
+            {
+                "id": 430,
+                "name": "ExtEEnsions",
+                "source": "archetype",
+                "virtual": true
             }
         ],
         "businessService": {
-            "id": 54
-        }
+            "id": 2,
+            "name": "Finance and HR"
+        },
+        "owner": {
+            "id": 22,
+            "name": "Olumide Themba"
+        },
+        "contributors": [
+            {
+                "id": 23,
+                "name": "Blazena Helma"
+            },
+            {
+                "id": 24,
+                "name": "Fintan Harper"
+            }
+        ],
+        "migrationWave": {
+            "id": 1,
+            "name": "Sprint 1"
+        },
+        "archetypes": [
+            {
+                "id": 1,
+                "name": "ExtEEnsions"
+            }
+        ],
+        "assessments": [],
+        "assessed": true,
+        "risk": "red",
+        "confidence": 7,
+        "effort": 8443
     },
     {
-        "id": 90,
-        "createUser": "tackle",
-        "updateUser": "tackle",
+        "id": 9,
+        "createUser": "",
+        "updateUser": "admin",
+        "createTime": "2024-05-28T13:52:49.680061166Z",
         "name": "AccountsReceivable",
         "description": "Customer management and incoming payments",
+        "bucket": {
+            "id": 9
+        },
+        "review": null,
+        "comments": "",
+        "identities": [],
         "tags": [
             {
-                "id": 34,
+                "id": 10,
+                "name": "Oracle"
+            },
+            {
+                "id": 16,
                 "name": "Java"
             },
             {
-                "id": 57,
+                "id": 19,
                 "name": "RHEL 8"
             },
             {
-                "id": 58,
-                "name": "Postgresql"
+                "id": 48,
+                "name": "EJB XML",
+                "source": "Analysis"
             },
             {
-                "id": 40,
-                "name": "EAP"
+                "id": 78,
+                "name": "Spring Properties",
+                "source": "Analysis"
+            },
+            {
+                "id": 98,
+                "name": "Servlet",
+                "source": "Analysis"
+            },
+            {
+                "id": 107,
+                "name": "Micrometer",
+                "source": "Analysis"
+            },
+            {
+                "id": 121,
+                "name": "CDI",
+                "source": "Analysis"
+            },
+            {
+                "id": 143,
+                "name": "Spring DI",
+                "source": "Analysis"
+            },
+            {
+                "id": 199,
+                "name": "JSF"
+            },
+            {
+                "id": 255,
+                "name": "Java EE JAXR"
+            },
+            {
+                "id": 257,
+                "name": "JCA",
+                "source": "Analysis"
+            },
+            {
+                "id": 259,
+                "name": "JNI",
+                "source": "Analysis"
+            },
+            {
+                "id": 260,
+                "name": "Mail",
+                "source": "Analysis"
+            },
+            {
+                "id": 261,
+                "name": "Properties",
+                "source": "Analysis"
+            },
+            {
+                "id": 270,
+                "name": "JPA entities"
+            },
+            {
+                "id": 274,
+                "name": "Spring Data JPA",
+                "source": "Analysis"
+            },
+            {
+                "id": 280,
+                "name": "Java EE JSON-P",
+                "source": "Analysis"
+            },
+            {
+                "id": 284,
+                "name": "Spring Scheduled",
+                "source": "Analysis"
+            },
+            {
+                "id": 381,
+                "name": "Java Transaction API"
+            },
+            {
+                "id": 407,
+                "name": "Spring Web",
+                "source": "Analysis"
+            },
+            {
+                "id": 413,
+                "name": "Spring Web",
+                "source": "Analysis"
+            },
+            {
+                "id": 414,
+                "name": "Spring Web",
+                "source": "Analysis"
+            },
+            {
+                "id": 415,
+                "name": "Spring DI",
+                "source": "Analysis"
+            },
+            {
+                "id": 416,
+                "name": "EJB XML",
+                "source": "Analysis"
+            },
+            {
+                "id": 417,
+                "name": "Servlet",
+                "source": "Analysis"
+            },
+            {
+                "id": 418,
+                "name": "Properties",
+                "source": "Analysis"
+            },
+            {
+                "id": 419,
+                "name": "JNI",
+                "source": "Analysis"
+            },
+            {
+                "id": 420,
+                "name": "Properties",
+                "source": "Analysis"
+            },
+            {
+                "id": 421,
+                "name": "JNI",
+                "source": "Analysis"
+            },
+            {
+                "id": 422,
+                "name": "Spring DI",
+                "source": "Analysis"
+            },
+            {
+                "id": 423,
+                "name": "Spring Data JPA",
+                "source": "Analysis"
+            },
+            {
+                "id": 424,
+                "name": "EJB XML",
+                "source": "Analysis"
+            },
+            {
+                "id": 425,
+                "name": "Servlet",
+                "source": "Analysis"
+            },
+            {
+                "id": 426,
+                "name": "Micrometer",
+                "source": "Analysis"
+            },
+            {
+                "id": 427,
+                "name": "Micrometer",
+                "source": "Analysis"
+            },
+            {
+                "id": 428,
+                "name": "Spring Data JPA",
+                "source": "Analysis"
+            },
+            {
+                "id": 433,
+                "name": "Spring Properties",
+                "source": "Analysis"
+            },
+            {
+                "id": 434,
+                "name": "Mail",
+                "source": "Analysis"
+            },
+            {
+                "id": 435,
+                "name": "Java EE JSON-P",
+                "source": "Analysis"
+            },
+            {
+                "id": 436,
+                "name": "Mail",
+                "source": "Analysis"
+            },
+            {
+                "id": 437,
+                "name": "Spring Scheduled",
+                "source": "Analysis"
+            },
+            {
+                "id": 438,
+                "name": "Spring Properties",
+                "source": "Analysis"
+            },
+            {
+                "id": 439,
+                "name": "JCA",
+                "source": "Analysis"
+            },
+            {
+                "id": 440,
+                "name": "CDI",
+                "source": "Analysis"
+            },
+            {
+                "id": 441,
+                "name": "Spring Scheduled",
+                "source": "Analysis"
+            },
+            {
+                "id": 442,
+                "name": "CDI",
+                "source": "Analysis"
+            },
+            {
+                "id": 443,
+                "name": "Java EE JSON-P",
+                "source": "Analysis"
+            },
+            {
+                "id": 444,
+                "name": "JCA",
+                "source": "Analysis"
+            },
+            {
+                "id": 22,
+                "name": "EAP",
+                "source": "archetype",
+                "virtual": true
+            },
+            {
+                "id": 430,
+                "name": "ExtEEnsions",
+                "source": "archetype",
+                "virtual": true
             }
         ],
         "businessService": {
-            "id": 54
-        }
+            "id": 2,
+            "name": "Finance and HR"
+        },
+        "owner": {
+            "id": 25,
+            "name": "Jepson Radha"
+        },
+        "contributors": [
+            {
+                "id": 26,
+                "name": "Kyran Malone"
+            },
+            {
+                "id": 27,
+                "name": "Dante Leblanc"
+            }
+        ],
+        "migrationWave": {
+            "id": 1,
+            "name": "Sprint 1"
+        },
+        "archetypes": [
+            {
+                "id": 1,
+                "name": "ExtEEnsions"
+            }
+        ],
+        "assessments": [],
+        "assessed": true,
+        "risk": "red",
+        "confidence": 7,
+        "effort": 9868
     },
     {
-        "id": 91,
-        "createUser": "tackle",
-        "updateUser": "tackle",
+        "id": 10,
+        "createUser": "",
+        "updateUser": "admin",
+        "createTime": "2024-05-28T13:52:49.684139484Z",
         "name": "OrangeHRM",
         "description": "HR staff processing of requests",
+        "bucket": {
+            "id": 10
+        },
+        "review": null,
+        "comments": "",
+        "identities": [],
         "tags": [
             {
-                "id": 57,
-                "name": "RHEL 8"
+                "id": 11,
+                "name": "PostgreSQL"
             },
             {
-                "id": 58,
-                "name": "Postgresql"
-            },
-            {
-                "id": 36,
+                "id": 18,
                 "name": "Python"
+            },
+            {
+                "id": 19,
+                "name": "RHEL 8"
             }
         ],
         "businessService": {
-            "id": 54
-        }
+            "id": 2,
+            "name": "Finance and HR"
+        },
+        "owner": {
+            "id": 28,
+            "name": "Hanna Miriam"
+        },
+        "contributors": [
+            {
+                "id": 29,
+                "name": "Mirka Heleen"
+            },
+            {
+                "id": 30,
+                "name": "Maiike Else"
+            }
+        ],
+        "migrationWave": {
+            "id": 2,
+            "name": "Sprint 2"
+        },
+        "archetypes": null,
+        "assessments": [],
+        "assessed": false,
+        "risk": "unassessed",
+        "confidence": 0,
+        "effort": 0
     }
 ]

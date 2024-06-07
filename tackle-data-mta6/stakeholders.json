@@ -1,0 +1,32 @@
+[
+    {
+        "id": 59,
+        "createUser": "tackle",
+        "updateUser": "tackle",
+        "name": "Homer Simpson",
+        "email": "hsimpson@globex.com",
+        "stakeholderGroups": [
+            {
+                "id": 62
+            }
+        ],
+        "jobFunction": {
+            "id": 8
+        }
+    },
+    {
+        "id": 60,
+        "createUser": "tackle",
+        "updateUser": "tackle",
+        "name": "Hank Scorpio",
+        "email": "hscorpio@globex.com",
+        "stakeholderGroups": [
+            {
+                "id": 61
+            }
+        ],
+        "jobFunction": {
+            "id": 9
+        }
+    }
+]

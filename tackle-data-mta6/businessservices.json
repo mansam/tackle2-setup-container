@@ -1,0 +1,18 @@
+[
+    {
+        "id": 53,
+        "createUser": "tackle",
+        "updateUser": "tackle",
+        "name": "Retail",
+        "description": "",
+        "owner": null
+    },
+    {
+        "id": 54,
+        "createUser": "tackle",
+        "updateUser": "tackle",
+        "name": "Finance and HR",
+        "description": "",
+        "owner": null
+    }
+]

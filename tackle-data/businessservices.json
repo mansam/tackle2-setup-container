@@ -1,16 +1,18 @@
 [
     {
-        "id": 53,
-        "createUser": "tackle",
-        "updateUser": "tackle",
+        "id": 1,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.625963906Z",
         "name": "Retail",
         "description": "",
         "owner": null
     },
     {
-        "id": 54,
-        "createUser": "tackle",
-        "updateUser": "tackle",
+        "id": 2,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.654552978Z",
         "name": "Finance and HR",
         "description": "",
         "owner": null

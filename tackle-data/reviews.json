@@ -1,44 +1,32 @@
 [
     {
-        "id": 101,
-        "createUser": "",
-        "updateUser": "",
-        "proposedAction": "retain",
+        "id": 1,
+        "createUser": "admin",
+        "updateUser": "admin",
+        "createTime": "2024-05-29T09:48:31.426594148Z",
+        "businessCriticality": 7,
         "effortEstimate": "small",
-        "businessCriticality": 6,
+        "proposedAction": "refactor",
         "workPriority": 6,
         "comments": "",
-        "application": {
-            "id": 83,
-            "name": "Orders"
+        "archetype": {
+            "id": 3,
+            "name": "Summer Framework"
         }
     },
     {
-        "id": 96,
-        "createUser": "tackle",
-        "updateUser": "tackle",
-        "proposedAction": "retain",
-        "effortEstimate": "small",
-        "businessCriticality": 6,
-        "workPriority": 6,
-        "comments": "",
-        "application": {
-            "id": 84,
-            "name": "Inventory"
-        }
-    },
-    {
-        "id": 100,
-        "createUser": "",
+        "id": 2,
+        "createUser": "admin",
         "updateUser": "",
-        "proposedAction": "retain",
-        "effortEstimate": "small",
-        "businessCriticality": 6,
-        "workPriority": 6,
+        "createTime": "2024-05-29T09:53:37.862173779Z",
+        "businessCriticality": 8,
+        "effortEstimate": "large",
+        "proposedAction": "refactor",
+        "workPriority": 4,
         "comments": "",
-        "application": {
-            "id": 85,
-            "name": "Gateway"
+        "archetype": {
+            "id": 1,
+            "name": "ExtEEnsions"
         }
     }
 ]

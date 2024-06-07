@@ -1,0 +1,218 @@
+[
+    {
+        "id": 1,
+        "createUser": "admin",
+        "updateUser": "admin",
+        "createTime": "2024-05-28T15:23:46.567031379Z",
+        "name": "ExtEEnsions",
+        "description": "Corporate Java Extensions for Java EE applications",
+        "comments": "",
+        "tags": [
+            {
+                "id": 22,
+                "name": "EAP"
+            },
+            {
+                "id": 430,
+                "name": "ExtEEnsions"
+            }
+        ],
+        "criteria": [
+            {
+                "id": 199,
+                "name": "JSF"
+            },
+            {
+                "id": 255,
+                "name": "Java EE JAXR"
+            },
+            {
+                "id": 270,
+                "name": "JPA entities"
+            }
+        ],
+        "stakeholders": [
+            {
+                "id": 3,
+                "name": "Sanaa Cantu"
+            },
+            {
+                "id": 5,
+                "name": "Melanie Barlow"
+            },
+            {
+                "id": 8,
+                "name": "Kristina Ward"
+            }
+        ],
+        "stakeholderGroups": [
+            {
+                "id": 2,
+                "name": "IT Management"
+            }
+        ],
+        "applications": [
+            {
+                "id": 6,
+                "name": "Payroll"
+            },
+            {
+                "id": 8,
+                "name": "Flexicard"
+            },
+            {
+                "id": 9,
+                "name": "AccountsReceivable"
+            }
+        ],
+        "assessments": [
+            {
+                "id": 2
+            }
+        ],
+        "assessed": true,
+        "risk": "red",
+        "confidence": 7,
+        "review": {
+            "id": 2
+        }
+    },
+    {
+        "id": 2,
+        "createUser": "admin",
+        "updateUser": "",
+        "createTime": "2024-05-28T15:35:06.566691932Z",
+        "name": "CloudNEXT Retail Framework",
+        "description": "Cloud Framework for Retail applications",
+        "comments": "",
+        "tags": [
+            {
+                "id": 431,
+                "name": "CloudNEXT Retail Framework"
+            },
+            {
+                "id": 432,
+                "name": "Kubernetes"
+            }
+        ],
+        "criteria": [
+            {
+                "id": 25,
+                "name": "Spring Boot"
+            }
+        ],
+        "stakeholders": [
+            {
+                "id": 4,
+                "name": "Stefan Richard"
+            },
+            {
+                "id": 7,
+                "name": "Latifah Tri"
+            },
+            {
+                "id": 10,
+                "name": "Valentina Hardin"
+            }
+        ],
+        "stakeholderGroups": [
+            {
+                "id": 1,
+                "name": "Retail Management"
+            }
+        ],
+        "applications": [
+            {
+                "id": 2,
+                "name": "Orders"
+            },
+            {
+                "id": 3,
+                "name": "Inventory"
+            },
+            {
+                "id": 4,
+                "name": "Gateway"
+            }
+        ],
+        "assessments": [],
+        "assessed": false,
+        "risk": "unassessed",
+        "confidence": 0,
+        "review": null
+    },
+    {
+        "id": 3,
+        "createUser": "admin",
+        "updateUser": "",
+        "createTime": "2024-05-28T15:37:31.612073538Z",
+        "name": "Summer Framework",
+        "description": "Corporate extensions for Spring based applications",
+        "comments": "",
+        "tags": [
+            {
+                "id": 26,
+                "name": "Tomcat"
+            },
+            {
+                "id": 429,
+                "name": "Summer Framework"
+            }
+        ],
+        "criteria": [
+            {
+                "id": 142,
+                "name": "Spring"
+            },
+            {
+                "id": 216,
+                "name": "Spring MVC"
+            },
+            {
+                "id": 242,
+                "name": "Spring Data"
+            }
+        ],
+        "stakeholders": [
+            {
+                "id": 3,
+                "name": "Sanaa Cantu"
+            },
+            {
+                "id": 12,
+                "name": "Lena Bentley"
+            },
+            {
+                "id": 22,
+                "name": "Olumide Themba"
+            }
+        ],
+        "stakeholderGroups": [
+            {
+                "id": 2,
+                "name": "IT Management"
+            }
+        ],
+        "applications": [
+            {
+                "id": 1,
+                "name": "Customers"
+            },
+            {
+                "id": 7,
+                "name": "PurchaseOrders"
+            }
+        ],
+        "assessments": [
+            {
+                "id": 1
+            }
+        ],
+        "assessed": true,
+        "risk": "green",
+        "confidence": 46,
+        "review": {
+            "id": 1
+        }
+    }
+]

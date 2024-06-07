@@ -1,32 +1,631 @@
 [
     {
-        "id": 59,
-        "createUser": "tackle",
-        "updateUser": "tackle",
-        "name": "Homer Simpson",
-        "email": "hsimpson@globex.com",
-        "stakeholderGroups": [
+        "id": 1,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.632016843Z",
+        "name": "Katy Cook",
+        "email": "kcook@foundation.com",
+        "stakeholderGroups": [],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [
             {
-                "id": 62
+                "id": 1,
+                "name": "Customers"
             }
         ],
-        "jobFunction": {
-            "id": 8
-        }
+        "contributes": [],
+        "migrationWaves": [
+            {
+                "id": 1,
+                "name": "Sprint 1"
+            }
+        ]
     },
     {
-        "id": 60,
-        "createUser": "tackle",
-        "updateUser": "tackle",
-        "name": "Hank Scorpio",
-        "email": "hscorpio@globex.com",
+        "id": 2,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.632377684Z",
+        "name": "Paul Ferrel",
+        "email": "pferrel@foundation.com",
         "stakeholderGroups": [
             {
-                "id": 61
+                "id": 2,
+                "name": "IT Management"
             }
         ],
-        "jobFunction": {
-            "id": 9
-        }
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [],
+        "contributes": [
+            {
+                "id": 1,
+                "name": "Customers"
+            }
+        ],
+        "migrationWaves": [
+            {
+                "id": 1,
+                "name": "Sprint 1"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.632527834Z",
+        "name": "Sanaa Cantu",
+        "email": "scantu@foundation.com",
+        "stakeholderGroups": [],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [],
+        "contributes": [
+            {
+                "id": 1,
+                "name": "Customers"
+            }
+        ],
+        "migrationWaves": [
+            {
+                "id": 2,
+                "name": "Sprint 2"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.632671791Z",
+        "name": "Stefan Richard",
+        "email": "srichard@foundation.com",
+        "stakeholderGroups": [
+            {
+                "id": 1,
+                "name": "Retail Management"
+            }
+        ],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [],
+        "contributes": [
+            {
+                "id": 1,
+                "name": "Customers"
+            },
+            {
+                "id": 4,
+                "name": "Gateway"
+            }
+        ],
+        "migrationWaves": []
+    },
+    {
+        "id": 5,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.637246025Z",
+        "name": "Melanie Barlow",
+        "email": "mbarlow@foundation.com",
+        "stakeholderGroups": [
+            {
+                "id": 2,
+                "name": "IT Management"
+            }
+        ],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [
+            {
+                "id": 2,
+                "name": "Orders"
+            }
+        ],
+        "contributes": [],
+        "migrationWaves": []
+    },
+    {
+        "id": 6,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.637451055Z",
+        "name": "Lujza Fleur",
+        "email": "lfleur@foundation.com",
+        "stakeholderGroups": [],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [],
+        "contributes": [
+            {
+                "id": 2,
+                "name": "Orders"
+            }
+        ],
+        "migrationWaves": []
+    },
+    {
+        "id": 7,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.637623217Z",
+        "name": "Latifah Tri",
+        "email": "ltri@foundation.com",
+        "stakeholderGroups": [
+            {
+                "id": 1,
+                "name": "Retail Management"
+            }
+        ],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [],
+        "contributes": [
+            {
+                "id": 2,
+                "name": "Orders"
+            }
+        ],
+        "migrationWaves": []
+    },
+    {
+        "id": 8,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.641849078Z",
+        "name": "Kristina Ward",
+        "email": "kward@foundation.com",
+        "stakeholderGroups": [],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [
+            {
+                "id": 3,
+                "name": "Inventory"
+            }
+        ],
+        "contributes": [],
+        "migrationWaves": []
+    },
+    {
+        "id": 9,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.642047862Z",
+        "name": "Brendon Hayes",
+        "email": "bhayes@foundation.com",
+        "stakeholderGroups": [
+            {
+                "id": 2,
+                "name": "IT Management"
+            }
+        ],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [],
+        "contributes": [
+            {
+                "id": 3,
+                "name": "Inventory"
+            }
+        ],
+        "migrationWaves": []
+    },
+    {
+        "id": 10,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.642204418Z",
+        "name": "Valentina Hardin",
+        "email": "vhardin@foundation.com",
+        "stakeholderGroups": [
+            {
+                "id": 1,
+                "name": "Retail Management"
+            }
+        ],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [],
+        "contributes": [
+            {
+                "id": 3,
+                "name": "Inventory"
+            }
+        ],
+        "migrationWaves": []
+    },
+    {
+        "id": 11,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.646934743Z",
+        "name": "Jasper Ruiz",
+        "email": "jruiz@foundation.com",
+        "stakeholderGroups": [],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [
+            {
+                "id": 4,
+                "name": "Gateway"
+            }
+        ],
+        "contributes": [],
+        "migrationWaves": []
+    },
+    {
+        "id": 12,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.647176514Z",
+        "name": "Lena Bentley",
+        "email": "lbentley@foundation.com",
+        "stakeholderGroups": [],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [],
+        "contributes": [
+            {
+                "id": 4,
+                "name": "Gateway"
+            }
+        ],
+        "migrationWaves": [
+            {
+                "id": 2,
+                "name": "Sprint 2"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.652560618Z",
+        "name": "Madhukar Kean",
+        "email": "mkean@foundation.com",
+        "stakeholderGroups": [],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [
+            {
+                "id": 5,
+                "name": "RetailFrontend"
+            }
+        ],
+        "contributes": [],
+        "migrationWaves": [
+            {
+                "id": 3,
+                "name": "Sprint 3"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.652725115Z",
+        "name": "Stanislava Willemina",
+        "email": "swillemina@foundation.com",
+        "stakeholderGroups": [],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [],
+        "contributes": [
+            {
+                "id": 5,
+                "name": "RetailFrontend"
+            }
+        ],
+        "migrationWaves": []
+    },
+    {
+        "id": 15,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.65290233Z",
+        "name": "Malai Elian",
+        "email": "melian@foundation.com",
+        "stakeholderGroups": [],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [],
+        "contributes": [
+            {
+                "id": 5,
+                "name": "RetailFrontend"
+            }
+        ],
+        "migrationWaves": []
+    },
+    {
+        "id": 16,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.659094407Z",
+        "name": "Leith Alhaji",
+        "email": "lalhaji@foundation.com",
+        "stakeholderGroups": [],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [
+            {
+                "id": 6,
+                "name": "Payroll"
+            }
+        ],
+        "contributes": [],
+        "migrationWaves": []
+    },
+    {
+        "id": 17,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.659307648Z",
+        "name": "Jonathan Garrison",
+        "email": "jgarrison@foundation.com",
+        "stakeholderGroups": [],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [],
+        "contributes": [
+            {
+                "id": 6,
+                "name": "Payroll"
+            }
+        ],
+        "migrationWaves": []
+    },
+    {
+        "id": 18,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.659500593Z",
+        "name": "James Ryan",
+        "email": "jryan@foundation.com",
+        "stakeholderGroups": [],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [],
+        "contributes": [
+            {
+                "id": 6,
+                "name": "Payroll"
+            }
+        ],
+        "migrationWaves": []
+    },
+    {
+        "id": 19,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.667698512Z",
+        "name": "Borja Cavan",
+        "email": "bcavan@foundation.com",
+        "stakeholderGroups": [],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [
+            {
+                "id": 7,
+                "name": "PurchaseOrders"
+            }
+        ],
+        "contributes": [],
+        "migrationWaves": []
+    },
+    {
+        "id": 20,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.668029492Z",
+        "name": "Jamie Davis",
+        "email": "jdavies@foundation.com",
+        "stakeholderGroups": [],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [],
+        "contributes": [
+            {
+                "id": 7,
+                "name": "PurchaseOrders"
+            }
+        ],
+        "migrationWaves": []
+    },
+    {
+        "id": 21,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.668267329Z",
+        "name": "Sienna Osborn",
+        "email": "sosborn@foundation.com",
+        "stakeholderGroups": [],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [],
+        "contributes": [
+            {
+                "id": 7,
+                "name": "PurchaseOrders"
+            }
+        ],
+        "migrationWaves": []
+    },
+    {
+        "id": 22,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.674108176Z",
+        "name": "Olumide Themba",
+        "email": "othemba@foundation.com",
+        "stakeholderGroups": [],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [
+            {
+                "id": 8,
+                "name": "Flexicard"
+            }
+        ],
+        "contributes": [],
+        "migrationWaves": []
+    },
+    {
+        "id": 23,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.674267851Z",
+        "name": "Blazena Helma",
+        "email": "bhelma@foundation.com",
+        "stakeholderGroups": [],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [],
+        "contributes": [
+            {
+                "id": 8,
+                "name": "Flexicard"
+            }
+        ],
+        "migrationWaves": []
+    },
+    {
+        "id": 24,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.674402519Z",
+        "name": "Fintan Harper",
+        "email": "fharper@foundation.com",
+        "stakeholderGroups": [],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [],
+        "contributes": [
+            {
+                "id": 8,
+                "name": "Flexicard"
+            }
+        ],
+        "migrationWaves": []
+    },
+    {
+        "id": 25,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.679492327Z",
+        "name": "Jepson Radha",
+        "email": "jradha@foundation.com",
+        "stakeholderGroups": [],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [
+            {
+                "id": 9,
+                "name": "AccountsReceivable"
+            }
+        ],
+        "contributes": [],
+        "migrationWaves": []
+    },
+    {
+        "id": 26,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.67965535Z",
+        "name": "Kyran Malone",
+        "email": "kmalone@foundation.com",
+        "stakeholderGroups": [],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [],
+        "contributes": [
+            {
+                "id": 9,
+                "name": "AccountsReceivable"
+            }
+        ],
+        "migrationWaves": []
+    },
+    {
+        "id": 27,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.679794346Z",
+        "name": "Dante Leblanc",
+        "email": "dleblanc@foundation.com",
+        "stakeholderGroups": [],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [],
+        "contributes": [
+            {
+                "id": 9,
+                "name": "AccountsReceivable"
+            }
+        ],
+        "migrationWaves": []
+    },
+    {
+        "id": 28,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.683436644Z",
+        "name": "Hanna Miriam",
+        "email": "hmiriam@foundation.com",
+        "stakeholderGroups": [],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [
+            {
+                "id": 10,
+                "name": "OrangeHRM"
+            }
+        ],
+        "contributes": [],
+        "migrationWaves": []
+    },
+    {
+        "id": 29,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.683598523Z",
+        "name": "Mirka Heleen",
+        "email": "mheleen@foundation.com",
+        "stakeholderGroups": [],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [],
+        "contributes": [
+            {
+                "id": 10,
+                "name": "OrangeHRM"
+            }
+        ],
+        "migrationWaves": []
+    },
+    {
+        "id": 30,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:52:49.683732985Z",
+        "name": "Maiike Else",
+        "email": "melse@foundation.com",
+        "stakeholderGroups": [],
+        "businessServices": [],
+        "jobFunction": null,
+        "owns": [],
+        "contributes": [
+            {
+                "id": 10,
+                "name": "OrangeHRM"
+            }
+        ],
+        "migrationWaves": []
     }
 ]

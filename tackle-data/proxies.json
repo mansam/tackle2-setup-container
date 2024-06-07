@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "id": 1,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:51:24.471295177Z",
+        "enabled": false,
+        "kind": "http",
+        "host": "",
+        "port": 0,
+        "excluded": [],
+        "identity": null
+    },
+    {
+        "id": 2,
+        "createUser": "",
+        "updateUser": "",
+        "createTime": "2024-05-28T13:51:24.471295177Z",
+        "enabled": false,
+        "kind": "https",
+        "host": "",
+        "port": 0,
+        "excluded": [],
+        "identity": null
+    }
+]
