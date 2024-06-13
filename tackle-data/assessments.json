@@ -1208,7 +1208,8 @@
                                 "text": "unknown",
                                 "risk": "unknown",
                                 "rationale": "",
-                                "mitigation": ""
+                                "mitigation": "",
+                                "selected": true
                             },
                             {
                                 "order": 1,
@@ -1229,8 +1230,7 @@
                                 "text": "Multiple configuration files in multiple file system locations",
                                 "risk": "yellow",
                                 "rationale": "",
-                                "mitigation": "",
-                                "selected": true
+                                "mitigation": ""
                             },
                             {
                                 "order": 4,
