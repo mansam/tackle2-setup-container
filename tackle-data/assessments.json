@@ -9,7 +9,7 @@
             "name": "Summer Framework"
         },
         "questionnaire": {
-            "id": 1,
+            "id": 2,
             "name": "Legacy Pathfinder"
         },
         "sections": [
@@ -1532,7 +1532,7 @@
             "name": "ExtEEnsions"
         },
         "questionnaire": {
-            "id": 1,
+            "id": 2,
             "name": "Legacy Pathfinder"
         },
         "sections": [
